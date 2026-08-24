@@ -13,6 +13,10 @@ L0 route and decide
 → L3 source evidence and provenance
 ```
 
+## Development Entry Gate
+
+No project enters `construction` directly from architecture. It must first pass `states/design-readiness/` and create a project design package from `templates/project-design-package/`. This turns requirements and architecture into reviewable implementation contracts rather than conversational notes.
+
 ## Control Path
 
 1. Select a project profile in `project-profiles.md`.

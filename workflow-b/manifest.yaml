@@ -20,6 +20,11 @@ states:
       - states/architecture/playbook.md
       - states/architecture/checklist.md
       - states/architecture/methods-index.md
+  design-readiness:
+    load:
+      - states/design-readiness/playbook.md
+      - states/design-readiness/checklist.md
+      - states/design-readiness/methods-index.md
   construction:
     load:
       - states/construction/playbook.md

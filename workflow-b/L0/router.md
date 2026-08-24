@@ -21,3 +21,7 @@ L3: inspect evidence and source history
 ```
 
 Do not load `registry/` or `sources/` during ordinary work.
+
+## Construction Gate
+
+`construction` is unavailable until `design-readiness` records `APPROVED` or `APPROVED_WITH_RISKS`. `REWORK_REQUIRED` returns to requirements or architecture.

@@ -36,7 +36,7 @@
 - Architecture risk evaluation
 
 **Fallback:** Return to requirements when quality scenarios or language conflict; create a spike when architecture risk is not understood.
-**Next state:** `construction`
+**Next state:** `design-readiness`
 
 ## Load Next
 - `states/architecture/checklist.md`

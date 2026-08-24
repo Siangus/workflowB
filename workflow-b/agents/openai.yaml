@@ -1,0 +1,4 @@
+interface:
+  display_name: Workflow B
+  short_description: Progressive software engineering handbook and SOP
+  default_prompt: Use Workflow B to route and execute this software engineering task.

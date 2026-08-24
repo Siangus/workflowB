@@ -38,13 +38,26 @@ Each state is a control-plane contract; handbook links hold execution detail.
 - **quality_gates:** Quality scenario review.; Architecture and contract review.; View/documentation completeness review.; Aggregate/concurrency review where applicable.; Architecture risk evaluation.
 - **roles:** Architect/lead engineer; Domain expert; Product owner; Reviewer; Tester
 - **fallback:** Return to discovery when requirements or quality scenarios conflict; create a spike when the architecture risk is not understood.
-- **next_state:** `plan-and-commit`
+- **next_state:** `design-readiness`
 - **handbook:** `handbook/design.md`
+
+## Design Readiness
+- **state_id:** `design-readiness`
+- **goal:** Turn requirements and architecture into a reviewed, traceable project design package before construction.
+- **entry_criteria:** Requirements have acceptance evidence; architecture drivers, boundaries, and major trade-offs are known.
+- **activities:** Create the project design package.; Define domain/state/invariants, quality scenarios, architecture views, runtime and failure flows, data consistency/recovery, interface contracts, ADRs, risk/security review, test strategy, traceability, and V1 plan.; Hold a design-readiness review.
+- **outputs:** Project design package; Design-readiness review; Approved risks or rework findings.
+- **exit_criteria:** Required design package artifacts exist.; Critical requirements trace to design and tests.; Interfaces, transaction boundaries, idempotency, recovery, and error semantics are explicit.; Review records APPROVED or APPROVED_WITH_RISKS.
+- **quality_gates:** Requirements-to-acceptance review.; Domain/state/invariant review.; Architecture/contract review.; Consistency/recovery review.; Test strategy review.; Security/privacy review when applicable.
+- **roles:** Product owner; Business analyst; Architect/lead engineer; Domain expert; Tester; Security/reliability reviewer when triggered.
+- **fallback:** REWORK_REQUIRED returns to requirements or architecture. Missing design evidence blocks construction.
+- **next_state:** `plan-and-commit`
+- **handbook:** `states/design-readiness/playbook.md`
 
 ## Plan and Commit
 - **state_id:** `plan-and-commit`
 - **goal:** Select a feasible, value-bearing work set and make scope trade-offs explicit.
-- **entry_criteria:** Prioritized backlog or approved baseline exists.; Dependencies and material risks are visible.
+- **entry_criteria:** Prioritized backlog or approved baseline exists.; Design-readiness decision is APPROVED or APPROVED_WITH_RISKS.; Dependencies and material risks are visible.
 - **activities:** Select value slices.; Assess capacity, risks, dependencies, and changes.; Record commitments and deferred scope.; Use rolling planning or formal estimation according to profile.
 - **outputs:** Iteration/release plan; Risk updates; Commitment decision; Deferred-scope list
 - **exit_criteria:** Work set fits capacity and constraints.; High risks have responses and triggers.; Deferred work has an explicit rationale.
@@ -57,7 +70,7 @@ Each state is a control-plane contract; handbook links hold execution detail.
 ## Construct and Integrate
 - **state_id:** `construct-and-integrate`
 - **goal:** Implement a maintainable, integrated vertical increment under configuration control.
-- **entry_criteria:** The next slice has acceptance evidence and needed design decisions.
+- **entry_criteria:** The next slice has acceptance evidence, needed design decisions, and an approved design-readiness package.
 - **activities:** Implement the vertical slice.; Run developer checks.; Review and integrate frequently.; Publish events safely when required.; Maintain configuration identity.
 - **outputs:** Integrated build; Code/review evidence; Automated developer checks; Updated configuration record
 - **exit_criteria:** Integrated build is green.; Changes have review and test evidence.; No unexplained contract break exists.

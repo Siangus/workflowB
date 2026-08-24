@@ -9,3 +9,4 @@
 7. Preserve version identity, change history, impact analysis, and acceptance evidence.
 8. Use the smallest process and artifact weight that satisfies project risk and obligations.
 9. Feed test, release, and production evidence back into requirements, risks, and planning.
+10. Construction begins only after a project design package has passed the design-readiness gate.

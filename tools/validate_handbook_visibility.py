@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORKFLOW = ROOT / "workflow-b"
 REGISTRY = ROOT / "registry"
-STATES = ["problem-framing", "requirements", "architecture", "construction", "verification", "release", "operations"]
+STATES = ["problem-framing", "requirements", "architecture", "design-readiness", "construction", "verification", "release", "operations"]
 CROSS_CUTTING = ["security", "reliability", "performance", "consistency", "observability", "data-and-privacy"]
 
 
@@ -37,6 +37,29 @@ def validate() -> tuple[list[str], list[str], dict]:
     for relative in ["L0/router.md", "L0/principles.md", "L0/project-profiles.md", "L0/sop-state-machine.md", "L3/provenance-guide.md"]:
         if not (WORKFLOW / relative).exists():
             errors.append(f"required visibility file missing: {relative}")
+
+    full_sop = (WORKFLOW / "sop-state-machine.md")
+    if not full_sop.exists():
+        errors.append("compatibility SOP is missing")
+    else:
+        full_sop_text = full_sop.read_text(encoding="utf-8")
+        if "## Design Readiness" not in full_sop_text:
+            errors.append("compatibility SOP bypasses design-readiness")
+        if "approved design-readiness package" not in full_sop_text:
+            errors.append("construction entry does not require an approved design package")
+
+    design_package = WORKFLOW / "templates" / "project-design-package"
+    required_design_docs = [
+        "00-charter.md", "01-requirements-baseline.md", "02-domain-and-state-model.md",
+        "03-quality-attribute-scenarios.md", "04-architecture-overview.md", "05-runtime-and-integration-flows.md",
+        "06-data-consistency-and-recovery.md", "07-api-and-interface-contracts.md", "09-risk-and-security-review.md",
+        "10-test-and-acceptance-strategy.md", "11-traceability-matrix.md", "12-v1-plan.md", "13-design-readiness-review.md",
+    ]
+    for filename in required_design_docs:
+        if not (design_package / filename).exists():
+            errors.append(f"project design package missing: {filename}")
+    if not (design_package / "08-adr" / "README.md").exists():
+        errors.append("project design package missing: 08-adr/README.md")
 
     for state in STATES:
         directory = WORKFLOW / "states" / state

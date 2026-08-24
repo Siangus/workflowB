@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-ROOT = Path("work/se-workflow")
+ROOT = Path(__file__).resolve().parents[1]
 WF = ROOT / "workflow-b"
 REGISTRY = ROOT / "registry"
 
@@ -45,9 +45,22 @@ STATES = {
         "exit": ["Architecture drivers have design responses.", "Boundaries and ownership are reviewable.", "Interfaces and behavior are testable.", "Major trade-offs and risks are recorded.", "Documentation is usable by intended stakeholders."],
         "gates": ["Quality scenario review", "Architecture and contract review", "View/documentation completeness review", "Concurrency/invariant review", "Architecture risk evaluation"],
         "fallback": "Return to requirements when quality scenarios or language conflict; create a spike when architecture risk is not understood.",
-        "next": "construction",
+        "next": "design-readiness",
         "cross": ["security", "data-and-privacy", "performance", "consistency", "reliability", "observability"],
         "methods": ["KU-0015", "KU-0017", "KU-0018", "KU-0019", "KU-0020", "KU-0043", "KU-0044", "KU-0045", "KU-0047", "KU-0048", "KU-0049", "KU-0050", "KU-0051", "KU-0052", "KU-0053", "KU-0054", "KU-0055", "KU-0056", "KU-0057", "KU-0058", "KU-0059", "KU-0060", "KU-0062", "KU-0063", "KU-0064", "KU-0065", "KU-0068", "KU-0071", "KU-0075", "KU-0078"],
+    },
+    "design-readiness": {
+        "title": "Design Readiness",
+        "goal": "Assemble and review the project design package before construction.",
+        "entry": "Requirements and architecture outputs exist for the proposed V1 slice.",
+        "activities": ["Create the project design package.", "Define state, rules, quality scenarios, views, data/recovery, interfaces, ADRs, tests, and traceability.", "Review evidence and record the readiness decision."],
+        "outputs": ["Project design package", "Design-readiness review", "Approved risks or rework findings"],
+        "exit": ["Required design-package artifacts exist.", "Critical requirements trace to design and tests.", "Review decision is APPROVED or APPROVED_WITH_RISKS."],
+        "gates": ["Requirements-to-acceptance review", "Architecture/contract review", "Consistency and recovery review", "Test strategy review"],
+        "fallback": "REWORK_REQUIRED returns to requirements or architecture. Construction remains blocked.",
+        "next": "plan-and-commit",
+        "cross": ["security", "performance", "consistency", "reliability", "observability", "data-and-privacy"],
+        "methods": ["KU-0019", "KU-0020", "KU-0031", "KU-0033", "KU-0034", "KU-0037", "KU-0044", "KU-0052", "KU-0053", "KU-0059", "KU-0060", "KU-0067", "KU-0075", "KU-0081", "KU-0083"],
     },
     "construction": {
         "title": "Construct and Integrate",
