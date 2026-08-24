@@ -1,0 +1,61 @@
+version: 1
+default:
+  - L0/router.md
+  - L0/principles.md
+  - L0/project-profiles.md
+  - L0/sop-state-machine.md
+states:
+  problem-framing:
+    load:
+      - states/problem-framing/playbook.md
+      - states/problem-framing/checklist.md
+      - states/problem-framing/methods-index.md
+  requirements:
+    load:
+      - states/requirements/playbook.md
+      - states/requirements/checklist.md
+      - states/requirements/methods-index.md
+  architecture:
+    load:
+      - states/architecture/playbook.md
+      - states/architecture/checklist.md
+      - states/architecture/methods-index.md
+  construction:
+    load:
+      - states/construction/playbook.md
+      - states/construction/checklist.md
+      - states/construction/methods-index.md
+  verification:
+    load:
+      - states/verification/playbook.md
+      - states/verification/checklist.md
+      - states/verification/methods-index.md
+  release:
+    load:
+      - states/release/playbook.md
+      - states/release/checklist.md
+      - states/release/methods-index.md
+  operations:
+    load:
+      - states/operations/playbook.md
+      - states/operations/checklist.md
+      - states/operations/methods-index.md
+cross_cutting:
+  high_concurrency:
+    - cross-cutting/performance/index.md
+    - cross-cutting/consistency/index.md
+    - cross-cutting/reliability/index.md
+    - cross-cutting/observability/index.md
+  regulated:
+    - cross-cutting/security/index.md
+    - cross-cutting/data-and-privacy/index.md
+  distributed:
+    - cross-cutting/consistency/index.md
+    - cross-cutting/reliability/index.md
+    - cross-cutting/performance/index.md
+on_demand:
+  methods: L2/methods/
+  patterns: L2/patterns/
+  test_strategies: L2/test-strategies/
+  templates: templates/
+  provenance: L3/
