@@ -8,6 +8,7 @@ Copy this directory into the project repository before construction. This packag
 
 - `00-charter.md`: problem, scope, decision owner, and success measures.
 - `01-requirements-baseline.md`: the selected requirement set, with links to detailed cards/scenarios.
+- `software-requirements-specification.md`: the versioned, implementation-independent technical requirement baseline.
 - `evidence-register.md`: claim classification, source/owner, assumptions, and open decisions.
 - `02-domain-and-state-model.md`: language, rules, and stateful behavior when the domain is not trivial.
 - `03-quality-attribute-scenarios.md`: measurable quality drivers or explicitly unresolved targets.

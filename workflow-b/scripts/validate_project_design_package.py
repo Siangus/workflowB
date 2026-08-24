@@ -10,6 +10,7 @@ from pathlib import Path
 REQUIRED_DOCUMENTS = (
     "00-charter.md",
     "01-requirements-baseline.md",
+    "software-requirements-specification.md",
     "evidence-register.md",
     "02-domain-and-state-model.md",
     "03-quality-attribute-scenarios.md",
@@ -38,8 +39,9 @@ ARC42_SECTIONS = (
     "## 11. Risks and Technical Debt",
     "## 12. Glossary",
 )
-REQUIREMENT_PATTERN = re.compile(r"^\|\s*(FR-[A-Z]+-\d+)\s*\|")
+REQUIREMENT_PATTERN = re.compile(r"^\|\s*(FR-(?:[A-Z]+-)?\d+)\s*\|")
 SCENARIO_ID_PATTERN = re.compile(r"^\|\s*([A-Z][A-Z0-9-]*-\d+)\s*\|")
+SCENARIO_REFERENCE_PATTERN = re.compile(r"[A-Z][A-Z0-9-]*-\d+")
 
 
 def read_text(path: Path) -> str:
@@ -110,10 +112,15 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
             errors.append(f"requirement lacks a traceability row: {requirement_id}")
             continue
         columns = [column.strip() for column in trace_row.strip("|").split("|")]
-        if len(columns) < 7 or not columns[5] or columns[5] in {"N/A", "TBD"}:
+        if len(columns) < 6 or not columns[4] or columns[4] in {"N/A", "TBD"}:
             errors.append(f"requirement lacks an acceptance scenario identifier: {requirement_id}")
-        elif columns[5] not in strategy_scenario_ids:
-            errors.append(f"traceability scenario is absent from the acceptance strategy: {requirement_id} -> {columns[5]}")
+            continue
+        references = SCENARIO_REFERENCE_PATTERN.findall(columns[4])
+        if not references:
+            errors.append(f"requirement has no parseable acceptance scenario identifier: {requirement_id}")
+        for scenario_id in references:
+            if scenario_id not in strategy_scenario_ids:
+                errors.append(f"traceability scenario is absent from the acceptance strategy: {requirement_id} -> {scenario_id}")
 
     review_path = design_path / "13-design-readiness-review.md"
     if review_path.is_file():

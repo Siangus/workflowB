@@ -46,3 +46,12 @@
 - **action:** Workflow B re-synthesis for evidence-backed requirements and implementation-detail constraints
 - **result:** added the evidence-and-implementation-detail contract, risk-triggered artifact templates, active-review gate, and non-self-approval rule; deprecated existence-only readiness semantics
 - **status:** synthesized from existing source-backed units; no raw-source ingestion added
+
+## MERGE-0006
+
+- **at:** 2026-08-24T10:00:00+00:00
+- **source:** `wiegers-beatty-software-requirements-3e`
+- **action:** targeted SRS artifact extraction and Workflow B integration
+- **knowledge unit added:** `KU-0086`
+- **result:** added a versioned implementation-independent SRS template and required it as the requirements-to-architecture baseline
+- **status:** integrated_core
