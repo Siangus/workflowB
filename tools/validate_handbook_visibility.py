@@ -51,7 +51,7 @@ def validate() -> tuple[list[str], list[str], dict]:
     design_package = WORKFLOW / "templates" / "project-design-package"
     required_design_docs = [
         "00-charter.md", "01-requirements-baseline.md", "02-domain-and-state-model.md",
-        "03-quality-attribute-scenarios.md", "04-architecture-overview.md", "05-runtime-and-integration-flows.md",
+        "03-quality-attribute-scenarios.md", "04-architecture-overview.md", "arc42.md", "05-runtime-and-integration-flows.md",
         "06-data-consistency-and-recovery.md", "07-api-and-interface-contracts.md", "09-risk-and-security-review.md",
         "10-test-and-acceptance-strategy.md", "11-traceability-matrix.md", "12-v1-plan.md", "13-design-readiness-review.md",
     ]

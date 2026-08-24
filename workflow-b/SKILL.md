@@ -34,7 +34,7 @@ L3: inspect source-backed evidence
 
 Do not load the entire handbook by default. Do not substitute a technical mechanism for a business requirement. Do not call an increment complete until the active state's exit evidence and quality gates are met.
 
-Before entering `construction`, the project must pass the `design-readiness` state and produce the project design package in `templates/project-design-package/`. Architecture discussion alone is not sufficient evidence.
+Before entering `construction`, the project must pass the `design-readiness` state and produce the project design package in `templates/project-design-package/`, including the required `arc42.md`. Run `scripts/validate_project_design_package.py <design-package-path>` before recording approval. Architecture discussion alone is not sufficient evidence.
 
 ## Project Profiles
 
