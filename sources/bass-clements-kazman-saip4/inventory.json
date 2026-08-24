@@ -1,0 +1,825 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-23T17:35:06.164548+00:00",
+  "book_id": "bass-clements-kazman-saip4",
+  "title": "Software Architecture in Practice, 4th Edition",
+  "input_dir": "C:\\Users\\26877\\Documents\\Codex\\2026-08-21\\c-users-26877-desktop-markdown\\work\\se-workflow\\sources\\bass-clements-kazman-saip4",
+  "ordered_by": "detected_page_range_then_filename",
+  "files": [
+    {
+      "path": "extracted-book.md",
+      "size_bytes": 859545,
+      "line_count": 6742,
+      "char_count": 846843,
+      "estimated_tokens": 179757,
+      "heading_count": 29,
+      "page_range": null,
+      "candidate_count": 361
+    }
+  ],
+  "segment_count": 34,
+  "segments": [
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-000001",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 1,
+      "end_line": 205,
+      "title_guess": "Chapter 1",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 5229,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1-205",
+      "reading_prompt": "Read extracted-book.md lines 1-205. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "# Software Architecture in Practice, 4th Edition"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-000206",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 206,
+      "end_line": 402,
+      "title_guess": "Chapter 5",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4178,
+      "status": "pending",
+      "source_locator": "extracted-book.md:206-402",
+      "reading_prompt": "Read extracted-book.md lines 206-402. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 5"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-000403",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 403,
+      "end_line": 602,
+      "title_guess": "Chapter 23",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 7010,
+      "status": "pending",
+      "source_locator": "extracted-book.md:403-602",
+      "reading_prompt": "Read extracted-book.md lines 403-602. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "2.1 Inhibiting or Enabling a System’s Quality Attributes"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-000603",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 603,
+      "end_line": 803,
+      "title_guess": "Chapter 3",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6038,
+      "status": "pending",
+      "source_locator": "extracted-book.md:603-803",
+      "reading_prompt": "Read extracted-book.md lines 603-803. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "2.16 Discussion Questions"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-000804",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 804,
+      "end_line": 1056,
+      "title_guess": "Chapter 9",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6264,
+      "status": "pending",
+      "source_locator": "extracted-book.md:804-1056",
+      "reading_prompt": "Read extracted-book.md lines 804-1056. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "3.7 Summary"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-001057",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 1057,
+      "end_line": 1291,
+      "title_guess": "Chapter 17",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5131,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1057-1291",
+      "reading_prompt": "Read extracted-book.md lines 1057-1291. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "4.3 Tactics-Based Questionnaire for Availability"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-001292",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 1292,
+      "end_line": 1484,
+      "title_guess": "Chapter 12",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4637,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1292-1484",
+      "reading_prompt": "Read extracted-book.md lines 1292-1484. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "5.2 Deployability"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-001485",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 1485,
+      "end_line": 1664,
+      "title_guess": "Chapter 1",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3912,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1485-1664",
+      "reading_prompt": "Read extracted-book.md lines 1485-1664. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "5.7 For Further Reading"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-001665",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 1665,
+      "end_line": 1908,
+      "title_guess": "Chapter 7",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5151,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1665-1908",
+      "reading_prompt": "Read extracted-book.md lines 1665-1908. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "6.6 Discussion Questions"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-001909",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 1909,
+      "end_line": 2101,
+      "title_guess": "Chapter 5",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4800,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1909-2101",
+      "reading_prompt": "Read extracted-book.md lines 1909-2101. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "7.4 Tactics-Based Questionnaire for Integrability"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-002102",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 2102,
+      "end_line": 2287,
+      "title_guess": "Chapter 7",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3557,
+      "status": "pending",
+      "source_locator": "extracted-book.md:2102-2287",
+      "reading_prompt": "Read extracted-book.md lines 2102-2287. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 7"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-002288",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 2288,
+      "end_line": 2517,
+      "title_guess": "Chapter 7",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6228,
+      "status": "pending",
+      "source_locator": "extracted-book.md:2288-2517",
+      "reading_prompt": "Read extracted-book.md lines 2288-2517. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 7"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-002518",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 2518,
+      "end_line": 2702,
+      "title_guess": "Chapter 4",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4850,
+      "status": "pending",
+      "source_locator": "extracted-book.md:2518-2702",
+      "reading_prompt": "Read extracted-book.md lines 2518-2702. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "9.3 Tactics-Based Questionnaire for Performance"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-002703",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 2703,
+      "end_line": 2885,
+      "title_guess": "Chapter 4",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4938,
+      "status": "pending",
+      "source_locator": "extracted-book.md:2703-2885",
+      "reading_prompt": "Read extracted-book.md lines 2703-2885. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "10.2 Tactics for Safety"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-002886",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 2886,
+      "end_line": 3067,
+      "title_guess": "Chapter 11",
+      "topics": [
+        "architecture",
+        "verification",
+        "release",
+        "operations"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3878,
+      "status": "pending",
+      "source_locator": "extracted-book.md:2886-3067",
+      "reading_prompt": "Read extracted-book.md lines 2886-3067. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 11"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-003068",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 3068,
+      "end_line": 3253,
+      "title_guess": "Chapter 12",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5451,
+      "status": "pending",
+      "source_locator": "extracted-book.md:3068-3253",
+      "reading_prompt": "Read extracted-book.md lines 3068-3253. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "11.6 Discussion Questions"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-003254",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 3254,
+      "end_line": 3443,
+      "title_guess": "Chapter 13",
+      "topics": [
+        "architecture",
+        "design",
+        "verification",
+        "operations"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 4074,
+      "status": "pending",
+      "source_locator": "extracted-book.md:3254-3443",
+      "reading_prompt": "Read extracted-book.md lines 3254-3443. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "12.6 For Further Reading"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-003444",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 3444,
+      "end_line": 3651,
+      "title_guess": "Chapter 14",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5125,
+      "status": "pending",
+      "source_locator": "extracted-book.md:3444-3651",
+      "reading_prompt": "Read extracted-book.md lines 3444-3651. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "13.5 For Further Reading"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-003652",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 3652,
+      "end_line": 3867,
+      "title_guess": "Chapter 15",
+      "topics": [
+        "architecture",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6177,
+      "status": "pending",
+      "source_locator": "extracted-book.md:3652-3867",
+      "reading_prompt": "Read extracted-book.md lines 3652-3867. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 15"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-003868",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 3868,
+      "end_line": 4056,
+      "title_guess": "Chapter 16",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "architecture"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5035,
+      "status": "pending",
+      "source_locator": "extracted-book.md:3868-4056",
+      "reading_prompt": "Read extracted-book.md lines 3868-4056. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "15.3 Documenting the Interface"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-004057",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 4057,
+      "end_line": 4236,
+      "title_guess": "Chapter 1",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6964,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4057-4236",
+      "reading_prompt": "Read extracted-book.md lines 4057-4236. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "16.4 Containers"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-004237",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 4237,
+      "end_line": 4423,
+      "title_guess": "Chapter 5",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "design"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7238,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4237-4423",
+      "reading_prompt": "Read extracted-book.md lines 4237-4423. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 5"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-004424",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 4424,
+      "end_line": 4610,
+      "title_guess": "Chapter 6",
+      "topics": [
+        "planning",
+        "requirements",
+        "design",
+        "feedback"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4838,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4424-4610",
+      "reading_prompt": "Read extracted-book.md lines 4424-4610. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 6"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-004611",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 4611,
+      "end_line": 4791,
+      "title_guess": "Chapter 8",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4490,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4611-4791",
+      "reading_prompt": "Read extracted-book.md lines 4611-4791. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 8"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-004792",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 4792,
+      "end_line": 4989,
+      "title_guess": "Chapter 3",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5521,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4792-4989",
+      "reading_prompt": "Read extracted-book.md lines 4792-4989. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "19.3 Gathering ASRs by Understanding the Business Goals"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-004990",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 4990,
+      "end_line": 5186,
+      "title_guess": "Chapter 22",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 6922,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4990-5186",
+      "reading_prompt": "Read extracted-book.md lines 4990-5186. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 22"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-005187",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 5187,
+      "end_line": 5428,
+      "title_guess": "Chapter 21",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 9460,
+      "status": "pending",
+      "source_locator": "extracted-book.md:5187-5428",
+      "reading_prompt": "Read extracted-book.md lines 5187-5428. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "20.9 Discussion Questions"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-005429",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 5429,
+      "end_line": 5676,
+      "title_guess": "Chapter 3",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 6855,
+      "status": "pending",
+      "source_locator": "extracted-book.md:5429-5676",
+      "reading_prompt": "Read extracted-book.md lines 5429-5676. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "21.6 Lightweight Architecture Evaluation"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-005677",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 5677,
+      "end_line": 5920,
+      "title_guess": "Chapter 1",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5989,
+      "status": "pending",
+      "source_locator": "extracted-book.md:5677-5920",
+      "reading_prompt": "Read extracted-book.md lines 5677-5920. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 1"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-005921",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 5921,
+      "end_line": 6116,
+      "title_guess": "Chapter 15",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5508,
+      "status": "pending",
+      "source_locator": "extracted-book.md:5921-6116",
+      "reading_prompt": "Read extracted-book.md lines 5921-6116. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "22.9 Practical Considerations"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-006117",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 6117,
+      "end_line": 6312,
+      "title_guess": "Chapter 21",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5421,
+      "status": "pending",
+      "source_locator": "extracted-book.md:6117-6312",
+      "reading_prompt": "Read extracted-book.md lines 6117-6312. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "23.3 Example"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-006313",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 6313,
+      "end_line": 6500,
+      "title_guess": "Chapter 1",
+      "topics": [
+        "planning",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 3831,
+      "status": "pending",
+      "source_locator": "extracted-book.md:6313-6500",
+      "reading_prompt": "Read extracted-book.md lines 6313-6500. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "24.5 Summary"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-006501",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 6501,
+      "end_line": 6680,
+      "title_guess": "Chapter 26",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4001,
+      "status": "pending",
+      "source_locator": "extracted-book.md:6501-6680",
+      "reading_prompt": "Read extracted-book.md lines 6501-6680. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "25.6 Discussion Questions"
+    },
+    {
+      "segment_id": "SEG-bass-clements-kazman-saip4-F01-006681",
+      "book_id": "bass-clements-kazman-saip4",
+      "file": "extracted-book.md",
+      "start_line": 6681,
+      "end_line": 6742,
+      "title_guess": "26.x continuation",
+      "topics": [
+        "problem-framing",
+        "architecture",
+        "design",
+        "operations"
+      ],
+      "heading_confidence": 0.78,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1040,
+      "status": "pending",
+      "source_locator": "extracted-book.md:6681-6742",
+      "reading_prompt": "Read extracted-book.md lines 6681-6742. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "26.5 Potential Applications"
+    }
+  ],
+  "estimated_tokens": 179757,
+  "topic_distribution": {
+    "requirements": 27,
+    "architecture": 27,
+    "design": 22,
+    "construction": 5,
+    "problem-framing": 20,
+    "planning": 14,
+    "risk": 13,
+    "verification": 3,
+    "release": 1,
+    "operations": 3,
+    "feedback": 1
+  },
+  "warnings": []
+}

@@ -1,0 +1,5 @@
+# Book Summary: Patterns of Enterprise Application Architecture
+
+This book is a pattern catalog for enterprise applications. The narrative chapters explain layering, organization of domain logic, relational database mapping, web presentation, concurrency, session state, distribution, and how to combine these choices. The pattern chapters then classify solutions for domain logic, data sources, object-relational behavior and structure, metadata mapping, web presentation, distribution, offline concurrency, session state, and base concerns.
+
+The transferable method is not to apply every pattern. First identify the domain complexity, transaction boundary, data source, presentation boundary, concurrency problem, and distribution cost; then choose the smallest pattern that solves the actual problem and verify its consequences. The book is older than current frameworks, but its problem/solution trade-offs remain useful for service layers, repositories, unit of work, optimistic locking, DTOs, gateways, and test stubs.

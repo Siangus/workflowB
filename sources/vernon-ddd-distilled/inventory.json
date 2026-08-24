@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-23T05:58:38.368681+00:00",
+  "book_id": "vernon-ddd-distilled",
+  "title": "Domain-Driven Design Distilled",
+  "input_dir": "C:\\Users\\26877\\Desktop\\学习资料\\领域驱动设计markdown",
+  "ordered_by": "detected_page_range_then_filename",
+  "files": [
+    {
+      "path": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "size_bytes": 234191,
+      "line_count": 2194,
+      "char_count": 232525,
+      "estimated_tokens": 47498,
+      "heading_count": 122,
+      "page_range": null,
+      "candidate_count": 125
+    }
+  ],
+  "segment_count": 8,
+  "segments": [
+    {
+      "segment_id": "SEG-vernon-ddd-distilled-F01-000001",
+      "book_id": "vernon-ddd-distilled",
+      "file": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "start_line": 1,
+      "end_line": 225,
+      "title_guess": "Chapter 2 , “Strategic Design with Bounded Contexts and the Ubiquitous Language ,” introduces DDD strategic design and teaches the cornerstones of DDD, Bounded Contexts and the Ubiquitous Language. Chapter 3 , “Strategic Design with Subdomains ,” explains Subdomains and how you can use them to deal with the complexity of integrating with existing legacy systems as you model your new applications. Chapter 4 , “Strategic Design with Context Mapping ,” teaches the variety of ways that teams work together strategically and ways that their software can integrate. This is called Context Mapping.",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 6723,
+      "status": "pending",
+      "source_locator": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:1-225",
+      "reading_prompt": "Read Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md lines 1-225. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## DOMAIN-DRIVEN DESIGN DISTILLED"
+    },
+    {
+      "segment_id": "SEG-vernon-ddd-distilled-F01-000226",
+      "book_id": "vernon-ddd-distilled",
+      "file": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "start_line": 226,
+      "end_line": 563,
+      "title_guess": "Chapter 2 Strategic Design with Bounded Contexts and the Ubiquitous Language",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7750,
+      "status": "pending",
+      "source_locator": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:226-563",
+      "reading_prompt": "Read Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md lines 226-563. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 2. Strategic Design with Bounded Contexts and the Ubiquitous Language"
+    },
+    {
+      "segment_id": "SEG-vernon-ddd-distilled-F01-000564",
+      "book_id": "vernon-ddd-distilled",
+      "file": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "start_line": 564,
+      "end_line": 747,
+      "title_guess": "Chapter 3 Strategic Design with Subdomains",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 3458,
+      "status": "pending",
+      "source_locator": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:564-747",
+      "reading_prompt": "Read Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md lines 564-747. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Click here to view code image"
+    },
+    {
+      "segment_id": "SEG-vernon-ddd-distilled-F01-000748",
+      "book_id": "vernon-ddd-distilled",
+      "file": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "start_line": 748,
+      "end_line": 1030,
+      "title_guess": "Chapter 4 Strategic Design with Context Mapping",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "design",
+        "verification"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 5593,
+      "status": "pending",
+      "source_locator": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:748-1030",
+      "reading_prompt": "Read Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md lines 748-1030. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 4. Strategic Design with Context Mapping"
+    },
+    {
+      "segment_id": "SEG-vernon-ddd-distilled-F01-001031",
+      "book_id": "vernon-ddd-distilled",
+      "file": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "start_line": 1031,
+      "end_line": 1377,
+      "title_guess": "Chapter 5 Tactical Design with Aggregates",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 6623,
+      "status": "pending",
+      "source_locator": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:1031-1377",
+      "reading_prompt": "Read Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md lines 1031-1377. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 5. Tactical Design with Aggregates"
+    },
+    {
+      "segment_id": "SEG-vernon-ddd-distilled-F01-001378",
+      "book_id": "vernon-ddd-distilled",
+      "file": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "start_line": 1378,
+      "end_line": 1713,
+      "title_guess": "Chapter 6 Tactical Design with Domain Events",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 9495,
+      "status": "pending",
+      "source_locator": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:1378-1713",
+      "reading_prompt": "Read Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md lines 1378-1713. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 6. Tactical Design with Domain Events"
+    },
+    {
+      "segment_id": "SEG-vernon-ddd-distilled-F01-001714",
+      "book_id": "vernon-ddd-distilled",
+      "file": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "start_line": 1714,
+      "end_line": 2052,
+      "title_guess": "First Things First — continued",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 6343,
+      "status": "pending",
+      "source_locator": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:1714-2052",
+      "reading_prompt": "Read Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md lines 1714-2052. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## First Things First"
+    },
+    {
+      "segment_id": "SEG-vernon-ddd-distilled-F01-002053",
+      "book_id": "vernon-ddd-distilled",
+      "file": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md",
+      "start_line": 2053,
+      "end_line": 2194,
+      "title_guess": "S — continued",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1510,
+      "status": "pending",
+      "source_locator": "Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:2053-2194",
+      "reading_prompt": "Read Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md lines 2053-2194. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## S"
+    }
+  ],
+  "estimated_tokens": 47498,
+  "topic_distribution": {
+    "problem-framing": 5,
+    "planning": 7,
+    "requirements": 6,
+    "architecture": 6,
+    "risk": 1,
+    "design": 6,
+    "verification": 1
+  },
+  "warnings": []
+}

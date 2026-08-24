@@ -1,0 +1,904 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-23T17:35:05.669509+00:00",
+  "book_id": "fowler-poeaa",
+  "title": "Patterns of Enterprise Application Architecture",
+  "input_dir": "C:\\Users\\26877\\Documents\\Codex\\2026-08-21\\c-users-26877-desktop-markdown\\work\\se-workflow\\sources\\fowler-poeaa",
+  "ordered_by": "detected_page_range_then_filename",
+  "files": [
+    {
+      "path": "extracted-book.md",
+      "size_bytes": 880435,
+      "line_count": 14646,
+      "char_count": 864051,
+      "estimated_tokens": 185548,
+      "heading_count": 30,
+      "page_range": null,
+      "candidate_count": 56
+    }
+  ],
+  "segment_count": 38,
+  "segments": [
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-000001",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 1,
+      "end_line": 181,
+      "title_guess": "Chapter 1 Layering",
+      "topics": [
+        "problem-framing",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 5702,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1-181",
+      "reading_prompt": "Read extracted-book.md lines 1-181. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "# Patterns of Enterprise Application Architecture"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-000182",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 182,
+      "end_line": 477,
+      "title_guess": "Chapter 9",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2570,
+      "status": "pending",
+      "source_locator": "extracted-book.md:182-477",
+      "reading_prompt": "Read extracted-book.md lines 182-477. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 9"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-000478",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 478,
+      "end_line": 676,
+      "title_guess": "Chapter 3 Mapping to Relational Databases",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3144,
+      "status": "pending",
+      "source_locator": "extracted-book.md:478-676",
+      "reading_prompt": "Read extracted-book.md lines 478-676. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 3: Mapping to Relational Databases"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-000677",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 677,
+      "end_line": 1109,
+      "title_guess": "Chapter 5",
+      "topics": [
+        "problem-framing",
+        "verification",
+        "operations",
+        "teamwork"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7405,
+      "status": "pending",
+      "source_locator": "extracted-book.md:677-1109",
+      "reading_prompt": "Read extracted-book.md lines 677-1109. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 5"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-001110",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 1110,
+      "end_line": 1534,
+      "title_guess": "Chapter 4 Web Presentation",
+      "topics": [
+        "design",
+        "construction",
+        "verification",
+        "operations"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 13144,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1110-1534",
+      "reading_prompt": "Read extracted-book.md lines 1110-1534. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 4: Web Presentation"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-001535",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 1535,
+      "end_line": 1760,
+      "title_guess": "Chapter 6 Session State",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 7014,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1535-1760",
+      "reading_prompt": "Read extracted-book.md lines 1535-1760. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 6: Session State"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-001761",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 1761,
+      "end_line": 2154,
+      "title_guess": "Chapter 8 Putting It All Together",
+      "topics": [
+        "problem-framing",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5307,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1761-2154",
+      "reading_prompt": "Read extracted-book.md lines 1761-2154. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 8: Putting It All Together"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-002155",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 2155,
+      "end_line": 2504,
+      "title_guess": "Chapter 14",
+      "topics": [
+        "problem-framing",
+        "design",
+        "verification",
+        "teamwork"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3593,
+      "status": "pending",
+      "source_locator": "extracted-book.md:2155-2504",
+      "reading_prompt": "Read extracted-book.md lines 2155-2504. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 14"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-002505",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 2505,
+      "end_line": 2781,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3632,
+      "status": "pending",
+      "source_locator": "extracted-book.md:2505-2781",
+      "reading_prompt": "Read extracted-book.md lines 2505-2781. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Domain Model"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-002782",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 2782,
+      "end_line": 3088,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "architecture",
+        "design",
+        "verification"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3030,
+      "status": "pending",
+      "source_locator": "extracted-book.md:2782-3088",
+      "reading_prompt": "Read extracted-book.md lines 2782-3088. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Table Module"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-003089",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 3089,
+      "end_line": 3391,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3603,
+      "status": "pending",
+      "source_locator": "extracted-book.md:3089-3391",
+      "reading_prompt": "Read extracted-book.md lines 3089-3391. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Service Layer"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-003392",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 3392,
+      "end_line": 3708,
+      "title_guess": "Chapter 10 Data Source Architectural Patterns",
+      "topics": [
+        "problem-framing",
+        "design",
+        "construction",
+        "operations"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2774,
+      "status": "pending",
+      "source_locator": "extracted-book.md:3392-3708",
+      "reading_prompt": "Read extracted-book.md lines 3392-3708. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 10: Data Source Architectural Patterns"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-003709",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 3709,
+      "end_line": 4125,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "design",
+        "verification",
+        "operations",
+        "teamwork"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3171,
+      "status": "pending",
+      "source_locator": "extracted-book.md:3709-4125",
+      "reading_prompt": "Read extracted-book.md lines 3709-4125. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Row Data Gateway"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-004126",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 4126,
+      "end_line": 4531,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4367,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4126-4531",
+      "reading_prompt": "Read extracted-book.md lines 4126-4531. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "private String lastName;"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-004532",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 4532,
+      "end_line": 4823,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "construction",
+        "verification",
+        "teamwork"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1985,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4532-4823",
+      "reading_prompt": "Read extracted-book.md lines 4532-4823. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "public List findByLastName2(String pattern) {"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-004824",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 4824,
+      "end_line": 5182,
+      "title_guess": "Chapter 11 Object-Relational Behavioral Patterns",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3949,
+      "status": "pending",
+      "source_locator": "extracted-book.md:4824-5182",
+      "reading_prompt": "Read extracted-book.md lines 4824-5182. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 11: Object-Relational Behavioral Patterns"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-005183",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 5183,
+      "end_line": 5759,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "problem-framing",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.415,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6849,
+      "status": "pending",
+      "source_locator": "extracted-book.md:5183-5759",
+      "reading_prompt": "Read extracted-book.md lines 5183-5759. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Identity Map"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-005760",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 5760,
+      "end_line": 6155,
+      "title_guess": "Chapter 12 Object-Relational Structural Patterns",
+      "topics": [
+        "problem-framing",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5475,
+      "status": "pending",
+      "source_locator": "extracted-book.md:5760-6155",
+      "reading_prompt": "Read extracted-book.md lines 5760-6155. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 12: Object-Relational Structural Patterns"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-006156",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 6156,
+      "end_line": 6574,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "problem-framing",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 3951,
+      "status": "pending",
+      "source_locator": "extracted-book.md:6156-6574",
+      "reading_prompt": "Read extracted-book.md lines 6156-6574. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "abstract protected String findStatementString();"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-006575",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 6575,
+      "end_line": 6988,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "teamwork"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3199,
+      "status": "pending",
+      "source_locator": "extracted-book.md:6575-6988",
+      "reading_prompt": "Read extracted-book.md lines 6575-6988. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "private String name;"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-006989",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 6989,
+      "end_line": 7348,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2959,
+      "status": "pending",
+      "source_locator": "extracted-book.md:6989-7348",
+      "reading_prompt": "Read extracted-book.md lines 6989-7348. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "protected override void Save (DomainObject obj, DataRow row) {"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-007349",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 7349,
+      "end_line": 7756,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "design",
+        "verification"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 4817,
+      "status": "pending",
+      "source_locator": "extracted-book.md:7349-7756",
+      "reading_prompt": "Read extracted-book.md lines 7349-7756. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Dependent Mapping"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-007757",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 7757,
+      "end_line": 8167,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "construction",
+        "verification",
+        "teamwork"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3742,
+      "status": "pending",
+      "source_locator": "extracted-book.md:7757-8167",
+      "reading_prompt": "Read extracted-book.md lines 7757-8167. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Element toXmlElement() {"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-008168",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 8168,
+      "end_line": 8560,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "design",
+        "construction",
+        "teamwork"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4234,
+      "status": "pending",
+      "source_locator": "extracted-book.md:8168-8560",
+      "reading_prompt": "Read extracted-book.md lines 8168-8560. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "public Player Find (long key) {"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-008561",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 8561,
+      "end_line": 9339,
+      "title_guess": "Chapter 13 Object-Relational Metadata Mapping Patterns",
+      "topics": [
+        "problem-framing",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 8063,
+      "status": "pending",
+      "source_locator": "extracted-book.md:8561-9339",
+      "reading_prompt": "Read extracted-book.md lines 8561-9339. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 13: Object-Relational Metadata Mapping Patterns"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-009340",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 9340,
+      "end_line": 9759,
+      "title_guess": "Chapter 14 Web Presentation Patterns",
+      "topics": [
+        "problem-framing",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5394,
+      "status": "pending",
+      "source_locator": "extracted-book.md:9340-9759",
+      "reading_prompt": "Read extracted-book.md lines 9340-9759. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 14: Web Presentation Patterns"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-009760",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 9760,
+      "end_line": 10170,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "design",
+        "construction",
+        "verification",
+        "governance"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6074,
+      "status": "pending",
+      "source_locator": "extracted-book.md:9760-10170",
+      "reading_prompt": "Read extracted-book.md lines 9760-10170. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "class BattingPage..."
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-010171",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 10171,
+      "end_line": 10550,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "design",
+        "verification",
+        "teamwork"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4653,
+      "status": "pending",
+      "source_locator": "extracted-book.md:10171-10550",
+      "reading_prompt": "Read extracted-book.md lines 10171-10550. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "protected String team {"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-010551",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 10551,
+      "end_line": 10946,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "design",
+        "construction",
+        "verification",
+        "teamwork"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 3919,
+      "status": "pending",
+      "source_locator": "extracted-book.md:10551-10946",
+      "reading_prompt": "Read extracted-book.md lines 10551-10946. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "public void process() {"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-010947",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 10947,
+      "end_line": 11358,
+      "title_guess": "Chapter 15 Distribution Patterns",
+      "topics": [
+        "problem-framing",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4833,
+      "status": "pending",
+      "source_locator": "extracted-book.md:10947-11358",
+      "reading_prompt": "Read extracted-book.md lines 10947-11358. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 15: Distribution Patterns"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-011359",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 11359,
+      "end_line": 11882,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "problem-framing",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.415,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5952,
+      "status": "pending",
+      "source_locator": "extracted-book.md:11359-11882",
+      "reading_prompt": "Read extracted-book.md lines 11359-11882. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "public AlbumDTO WriteDTO (Album subject) {"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-011883",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 11883,
+      "end_line": 12274,
+      "title_guess": "Chapter 16 Offline Concurrency Patterns",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7361,
+      "status": "pending",
+      "source_locator": "extracted-book.md:11883-12274",
+      "reading_prompt": "Read extracted-book.md lines 11883-12274. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 16: Offline Concurrency Patterns"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-012275",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 12275,
+      "end_line": 12995,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "architecture",
+        "verification",
+        "release"
+      ],
+      "heading_confidence": 0.415,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7006,
+      "status": "pending",
+      "source_locator": "extracted-book.md:12275-12995",
+      "reading_prompt": "Read extracted-book.md lines 12275-12995. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "private static final String INSERT_SQL ="
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-012996",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 12996,
+      "end_line": 13394,
+      "title_guess": "Chapter 17 Session State Patterns",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7587,
+      "status": "pending",
+      "source_locator": "extracted-book.md:12996-13394",
+      "reading_prompt": "Read extracted-book.md lines 12996-13394. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 17: Session State Patterns"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-013395",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 13395,
+      "end_line": 13788,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "problem-framing",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5327,
+      "status": "pending",
+      "source_locator": "extracted-book.md:13395-13788",
+      "reading_prompt": "Read extracted-book.md lines 13395-13788. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Mapper"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-013789",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 13789,
+      "end_line": 14204,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "verification",
+        "operations",
+        "teamwork"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5206,
+      "status": "pending",
+      "source_locator": "extracted-book.md:13789-14204",
+      "reading_prompt": "Read extracted-book.md lines 13789-14204. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Money"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-014205",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 14205,
+      "end_line": 14471,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3061,
+      "status": "pending",
+      "source_locator": "extracted-book.md:14205-14471",
+      "reading_prompt": "Read extracted-book.md lines 14205-14471. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Service Stub"
+    },
+    {
+      "segment_id": "SEG-fowler-poeaa-F01-014472",
+      "book_id": "fowler-poeaa",
+      "file": "extracted-book.md",
+      "start_line": 14472,
+      "end_line": 14646,
+      "title_guess": "Chapter 24",
+      "topics": [
+        "uncategorized"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1477,
+      "status": "pending",
+      "source_locator": "extracted-book.md:14472-14646",
+      "reading_prompt": "Read extracted-book.md lines 14472-14646. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 24"
+    }
+  ],
+  "estimated_tokens": 185548,
+  "topic_distribution": {
+    "problem-framing": 30,
+    "architecture": 8,
+    "design": 26,
+    "construction": 21,
+    "requirements": 4,
+    "risk": 6,
+    "verification": 23,
+    "operations": 5,
+    "teamwork": 10,
+    "planning": 2,
+    "governance": 1,
+    "release": 1,
+    "uncategorized": 1
+  },
+  "warnings": []
+}

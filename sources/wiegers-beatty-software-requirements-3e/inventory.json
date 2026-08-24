@@ -1,0 +1,1077 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-23T05:58:38.735739+00:00",
+  "book_id": "wiegers-beatty-software-requirements-3e",
+  "title": "Software Requirements, 3rd Edition",
+  "input_dir": "C:\\Users\\26877\\Desktop\\学习资料\\软件需求markdown",
+  "ordered_by": "detected_page_range_then_filename",
+  "files": [
+    {
+      "path": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "size_bytes": 508822,
+      "line_count": 4447,
+      "char_count": 201586,
+      "estimated_tokens": 122725,
+      "heading_count": 300,
+      "page_range": [
+        1,
+        200
+      ],
+      "candidate_count": 385
+    },
+    {
+      "path": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "size_bytes": 527954,
+      "line_count": 4125,
+      "char_count": 209720,
+      "estimated_tokens": 127148,
+      "heading_count": 237,
+      "page_range": [
+        201,
+        400
+      ],
+      "candidate_count": 253
+    },
+    {
+      "path": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "size_bytes": 399291,
+      "line_count": 5045,
+      "char_count": 186723,
+      "estimated_tokens": 94519,
+      "heading_count": 345,
+      "page_range": [
+        401,
+        573
+      ],
+      "candidate_count": 358
+    }
+  ],
+  "segment_count": 44,
+  "segments": [
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-000001",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 1,
+      "end_line": 343,
+      "title_guess": "Software Requirements 软件需求(第3版) — continued",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 6752,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:1-343",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 1-343. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "![image](https://cdn-mineru.openxlab.org.cn/result/2026-08-21/aacce8d7-52a2-45e5-8dba-7ee5ac322f18/d65e1366ca07eeaba264541029f872143c45da73752f930c773c1e32642c9c90.jpg)"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-000344",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 344,
+      "end_line": 531,
+      "title_guess": "第1章 软件需求的本质....3",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2614,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:344-531",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 344-531. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 案例学习"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-000532",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 532,
+      "end_line": 732,
+      "title_guess": "第7章 需求获取....105",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1197,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:532-732",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 532-732. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "第7章 需求获取....105"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-000733",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 733,
+      "end_line": 913,
+      "title_guess": "第21章 改进型和替换型项目 …… 349",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1064,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:733-913",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 733-913. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "第21章 改进型和替换型项目 …… 349"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-000914",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 914,
+      "end_line": 1252,
+      "title_guess": "第4章 业务分析师",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 8869,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:914-1252",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 914-1252. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "第4章 业务分析师"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-001253",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 1253,
+      "end_line": 1594,
+      "title_guess": "人对了，得出的需求却很糟糕 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 11382,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:1253-1594",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 1253-1594. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 人对了，得出的需求却很糟糕"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-001595",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 1595,
+      "end_line": 1947,
+      "title_guess": "第 1 章 讨论了需求的三个级别：业务、用户以及功能。它们来自不同的源头以及项目的不同阶段，有不同的受众和目的，记录方式各异。还需要获取非功能需求，例如不同维度的质量期望值。以下这些实践能够帮助获取各式各样的需求信息。",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 15210,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:1595-1947",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 1595-1947. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 需求基线"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-001948",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 1948,
+      "end_line": 2232,
+      "title_guess": "第5章 建立业务需求",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 9346,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:1948-2232",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 1948-2232. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 基本的分析技巧"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-002233",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 2233,
+      "end_line": 2422,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4353,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:2233-2422",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 2233-2422. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 1.1 背景"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-002423",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 2423,
+      "end_line": 2773,
+      "title_guess": "第 2 章 提到，项目可能包含很多种干系人。如图 6-1 所示，用户类别是产品用户的一个子集，产品用户是产品客户的一个子集，而产品客户又是干系人的子集。某个个人可以属于多种用户。举个例子，一个应用的管理员有时也可能像普通用户那样使用系统。产品的用户可能在以下方面（或者其他方面）有差别，基于以下这些差别，可以将用户分成以下几类独立的用户群：",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 11452,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:2423-2773",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 2423-2773. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 3.3 部署注意事项"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-002774",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 2774,
+      "end_line": 3130,
+      "title_guess": "失语的用户群 — continued",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 13139,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:2774-3130",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 2774-3130. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 失语的用户群"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-003131",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 3131,
+      "end_line": 3477,
+      "title_guess": "干系人，行动起来 — continued",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 10717,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:3131-3477",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 3131-3477. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 干系人，行动起来"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-003478",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 3478,
+      "end_line": 3821,
+      "title_guess": "正常流程、可选流程和异常 — continued",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 9786,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:3478-3821",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 3478-3821. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 正常流程、可选流程和异常"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-003822",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 3822,
+      "end_line": 4170,
+      "title_guess": "约束 — continued",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 9693,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:3822-4170",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 3822-4170. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 约束"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-004171",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 4171,
+      "end_line": 4351,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.71,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 4856,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:4171-4351",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 4171-4351. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 标识需求"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F01-004352",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md",
+      "start_line": 4352,
+      "end_line": 4447,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "page_split_recovery"
+      ],
+      "estimated_tokens": 2289,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:4352-4447",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md lines 4352-4447. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 4.1 逻辑数据模型"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-000001",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 1,
+      "end_line": 362,
+      "title_guess": "附录 B: 分析模型 — continued",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 10772,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:1-362",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 1-362. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "略词和缩写词。将每个首字母缩略词拼写出来并给出定义。可以考虑建立一个可重复利用的企业级词汇表，此表可以跨项目使用，并且吸纳与本项目相关的其他术语。然后，每个软件需求规范说明只定义针对单个项目、不出现在企业级词汇表中的术语。注意：数据定义属于数据字典，而非词汇表。"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-000363",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 363,
+      "end_line": 706,
+      "title_guess": "1.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.71,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 11533,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:363-706",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 363-706. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 改进前后的需求示例"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-000707",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 707,
+      "end_line": 1050,
+      "title_guess": "第8章 有一个叫“申请化学品”的用例，它来自化学品跟踪系统。这个用例的正常流程包含从化学品库房的库存清单申请一个化学品容器。另外一个可能的流程是从供应商那里申请化学品。发出申请的用户在选择供应商之前，想有一个选项来浏览库房中该化学品容器的历史信息。图12-5就是表示这个复杂用例的对话图。该对话图的进入点是一个源于实心黑圆圈的转换箭头，叫“要求提出申请”。用户将沿着该箭头从UI的其他部分进入这一部分应用的用户界面。对话图中返回UI其他部分的退出点是另一转换箭头，也以一个实心黑圆圈结束，与起始圆圈相比，不同之处是在结束的实心黑眼圈外还有一层圆圈。在该图中，结束的退出点叫“取消整个申请”和“完成；退出申请功能”。",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 12473,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:707-1050",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 707-1050. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "第8章有一个叫“申请化学品”的用例，它来自化学品跟踪系统。这个用例的正常流程包含从化学品库房的库存清单申请一个化学品容器。另外一个可能的流程是从供应商那里申请化学品。发出申请的用户在选择供应商之前，想有一个选项来浏览库房中该化学品容器的历史信息。图12-5就是表示这个复杂用例的对话图。该对话图的进入点是一个源于实心黑圆圈的转换箭头，叫“要求提出申请”。用户将沿着该箭头从UI的其他部分进入这一部分应用的用户界面。对话图中返回UI其他部分的退出点是另一转换箭头，也以一个实心黑圆圈结束，与起始圆圈相比，不同之处是在结束的实心黑眼圈外还有一层圆圈。在该图中，结束的退出点叫“取消整个申请”和“完成；退出申请功能”。"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-001051",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 1051,
+      "end_line": 1405,
+      "title_guess": "第 10 章 中 SRS 模板第 6 小节专门描述质量属性。如果某些质量需求特定于特定功能、组件、功能性需求或者用户故事，就将它们与需求管理库中相对应的需求关联起来。",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 9436,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:1051-1405",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 1051-1405. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 仪表盘报表"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-001406",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 1406,
+      "end_line": 1751,
+      "title_guess": "可靠性 — continued",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7767,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:1406-1751",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 1406-1751. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 可靠性"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-001752",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 1752,
+      "end_line": 2096,
+      "title_guess": "用 Planguage 指定质量需求 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 10791,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:1752-2096",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 1752-2096. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 用 Planguage 指定质量需求"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-002097",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 2097,
+      "end_line": 2437,
+      "title_guess": "原型的评估 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 11346,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:2097-2437",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 2097-2437. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 原型的评估"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-002438",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 2438,
+      "end_line": 2822,
+      "title_guess": "或者，我们可以掰手腕 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 11024,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:2438-2822",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 2438-2822. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 或者，我们可以掰手腕"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-002823",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 2823,
+      "end_line": 3163,
+      "title_guess": "使用验收条件确认需求 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 10889,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:2823-3163",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 2823-3163. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 使用验收条件确认需求"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-003164",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 3164,
+      "end_line": 3451,
+      "title_guess": "估算需求工作量 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 8806,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:3164-3451",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 3164-3451. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 估算需求工作量"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-003452",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 3452,
+      "end_line": 3797,
+      "title_guess": "第20章 敏捷项目",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 11668,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:3452-3797",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 3452-3797. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "第20章 敏捷项目"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F02-003798",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md",
+      "start_line": 3798,
+      "end_line": 4125,
+      "title_guess": "第 14 章 介绍了质量属性，这是在选择软件包方案时用户需求的另一个重要方面。至少要探索如下属性。",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "page_split_recovery"
+      ],
+      "estimated_tokens": 10637,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md:3798-4125",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_201-400.md lines 3798-4125. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 进行软件包方案选型的需求"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-000001",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 1,
+      "end_line": 351,
+      "title_guess": "第 24 章 业务过程自动化项目",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 10422,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:1-351",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 1-351. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "应当为每个指标确定一个当前的基线值。谨记，某些业务绩效指标得到提升的同时，可能会导致另一些降低。如第14章所述，应该在各个质量属性之间进行权衡。同样的概念也适用于此，但在这种情况下，权衡的是理想的绩效指标与其他各项绩效指标，还可能是一项业务的不同部分。为了能够对要实现的需求进行优先级排序，追溯需求所在的流程步骤，进而对应到KPI。"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-000352",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 352,
+      "end_line": 699,
+      "title_guess": "第 27 章 需求管理实践",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 9487,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:352-699",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 352-699. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 原型"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-000700",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 700,
+      "end_line": 970,
+      "title_guess": "解决需求问题 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5946,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:700-970",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 700-970. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 解决需求问题"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-000971",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 971,
+      "end_line": 1308,
+      "title_guess": "5.x continuation",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7576,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:971-1308",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 971-1308. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 5.1 评估变更请求"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-001309",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 1309,
+      "end_line": 1655,
+      "title_guess": "需求跟踪矩阵 — continued",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 10548,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:1309-1655",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 1309-1655. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 需求跟踪矩阵"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-001656",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 1656,
+      "end_line": 2018,
+      "title_guess": "第 31 章 改进需求过程",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 9322,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:1656-2018",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 1656-2018. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 行动练习"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-002019",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 2019,
+      "end_line": 2401,
+      "title_guess": "创建需求过程改进路线图 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 10562,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:2019-2401",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 2019-2401. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 创建需求过程改进路线图"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-002402",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 2402,
+      "end_line": 2585,
+      "title_guess": "1.x continuation",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.71,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 9619,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:2402-2585",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 2402-2585. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 需求问题问诊指南"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-002586",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 2586,
+      "end_line": 2767,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "risk",
+        "requirements",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5832,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:2586-2767",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 2586-2767. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 1.5 愿景陈述"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-002768",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 2768,
+      "end_line": 3103,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4736,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:2768-3103",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 2768-3103. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 3.4 创建、查看、修改以及删除食堂菜单"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-003104",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 3104,
+      "end_line": 3440,
+      "title_guess": "event-response table 事件响应表 — continued",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3017,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:3104-3440",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 3104-3440. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## event-response table 事件响应表"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-003441",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 3441,
+      "end_line": 3860,
+      "title_guess": "tracing 跟踪 — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2163,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:3441-3860",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 3441-3860. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## tracing 跟踪"
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-003861",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 3861,
+      "end_line": 4280,
+      "title_guess": "Untitled opening section",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1725,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:3861-4280",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 3861-4280. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Denne, Mark, and Jane Cleland-Huang. 2003. Software by Numbers: Low-Risk, High-Return Development. Santa Clara, CA: Sun Microsystems Press/Prentice Hall."
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-004281",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 4281,
+      "end_line": 4699,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1730,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:4281-4699",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 4281-4699. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "____. 1996b. Applied Software Measurement, 2nd ed. New York: McGraw-Hill."
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-004700",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 4700,
+      "end_line": 5004,
+      "title_guess": "Untitled opening section — continued",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.45,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 1270,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:4700-5004",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 4700-5004. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "____. 2001. \"The Business Rules Classification Scheme.\" DataToKnowledge Newsletter 29(5)."
+    },
+    {
+      "segment_id": "SEG-wiegers-beatty-software-requirements-3e-F03-005005",
+      "book_id": "wiegers-beatty-software-requirements-3e",
+      "file": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md",
+      "start_line": 5005,
+      "end_line": 5045,
+      "title_guess": "作者简介 — continued",
+      "topics": [
+        "requirements",
+        "teamwork"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 557,
+      "status": "pending",
+      "source_locator": "MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md:5005-5045",
+      "reading_prompt": "Read MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_401-573.md lines 5005-5045. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 作者简介"
+    }
+  ],
+  "estimated_tokens": 344392,
+  "topic_distribution": {
+    "problem-framing": 32,
+    "risk": 36,
+    "requirements": 44,
+    "architecture": 16,
+    "design": 15,
+    "planning": 26,
+    "construction": 4,
+    "teamwork": 1
+  },
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-23T04:30:35.873987+00:00",
+  "domains": [
+    "problem-framing",
+    "planning",
+    "risk",
+    "requirements",
+    "architecture",
+    "design",
+    "construction",
+    "verification",
+    "release",
+    "operations",
+    "feedback",
+    "maintenance",
+    "quality",
+    "governance",
+    "teamwork"
+  ]
+}

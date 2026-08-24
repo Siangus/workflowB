@@ -1,0 +1,14 @@
+# Planning, Risk, and Teamwork Handbook
+
+| ID | Method | Trigger | Source |
+|---|---|---|---|
+| `KU-0016` | [Core, supporting, and generic subdomains](../../sources/vernon-ddd-distilled/cards/KU-0016.md) | Deciding where to invest custom design, product ownership, or specialist expertise. | `Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:564-747` |
+| `KU-0021` | [Event storming, modeling spikes, and modeling debt](../../sources/vernon-ddd-distilled/cards/KU-0021.md) | Starting a complex domain, facing ambiguous workflows, or discovering a model mismatch during an iteration. | `Domain-Driven_Design_Distilled_--_Vernon,_Vaughn_[Vernon,_Vaughn].md:1714-2052` |
+| `KU-0022` | [Value-first feature slicing and release planning](../../sources/ford-greene-nature-of-software-development/cards/KU-0022.md) | A product has more desired work than time or budget permits. | `The_nature_of_software_development.md:260-527` |
+| `KU-0023` | [Rolling feature planning](../../sources/ford-greene-nature-of-software-development/cards/KU-0023.md) | Iterative work with uncertainty, changing evidence, or a fixed time and budget envelope. | `The_nature_of_software_development.md:528-745` |
+| `KU-0025` | [Features and foundation in parallel](../../sources/ford-greene-nature-of-software-development/cards/KU-0025.md) | A product needs architectural investment while value delivery is urgent. | `The_nature_of_software_development.md:746-973` |
+| `KU-0027` | [Feature teams and shared regression checks](../../sources/ford-greene-nature-of-software-development/cards/KU-0027.md) | More than one team must deliver to a common product. | `The_nature_of_software_development.md:1611-1894` |
+| `KU-0028` | [Business vision, scope, and measurable success](../../sources/wiegers-beatty-software-requirements-3e/cards/KU-0028.md) | Starting a product, release, or major enhancement. | `MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:1948-2232` |
+| `KU-0029` | [Stakeholder and user-class analysis](../../sources/wiegers-beatty-software-requirements-3e/cards/KU-0029.md) | A project has multiple user roles, indirect users, or conflicting viewpoints. | `MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:2423-2773` |
+| `KU-0036` | [Value, cost, and risk-based prioritization](../../sources/wiegers-beatty-software-requirements-3e/cards/KU-0036.md) | Selecting a release, iteration, or change request. | `MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:2423-2773` |
+| `KU-0042` | [Requirements risk management and process improvement](../../sources/wiegers-beatty-software-requirements-3e/cards/KU-0042.md) | A team has recurring requirement failures or starts a project with material uncertainty. | `MinerU_markdown_软件需求（第3版）_(Karl_Wiegers,_Joy_Beatty)_(z-library.sk,_1lib.sk,_z-lib.sk)_1-200.md:1595-1947` |

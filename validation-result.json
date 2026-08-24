@@ -1,0 +1,21 @@
+{
+  "status": "warnings",
+  "stats": {
+    "books": 1,
+    "registered_sources": 1,
+    "segments": 76,
+    "knowledge_units": 14,
+    "sop_states": 8,
+    "uncovered_primary_domains": [
+      "construction",
+      "feedback",
+      "maintenance",
+      "operations",
+      "release"
+    ]
+  },
+  "errors": [],
+  "warnings": [
+    "domains without a primary seed unit: construction, feedback, maintenance, operations, release"
+  ]
+}

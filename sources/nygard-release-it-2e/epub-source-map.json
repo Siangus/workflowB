@@ -1,0 +1,160 @@
+{
+  "book_id": "nygard-release-it-2e",
+  "title": "Release It!, Second Edition",
+  "source_epub": "E:\\下载\\Release It! _ Design and Deploy Production-Ready Software -- Michael T_ Nygard -- 2nd edition, 2018 -- The Pragmatic Bookshelf -- isbn13 9781680502398 -- 1825a0ea05fa5b46605fa0c242046952 -- Anna’s Archive.epub",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Chapter 1: Living in Production",
+      "files": [
+        "f_0010.xhtml"
+      ],
+      "start_line": 8,
+      "end_line": 47
+    },
+    {
+      "chapter": 2,
+      "title": "Chapter 2: Case Study: The Exception That Grounded an Airline",
+      "files": [
+        "f_0018.xhtml"
+      ],
+      "start_line": 48,
+      "end_line": 108
+    },
+    {
+      "chapter": 3,
+      "title": "Chapter 3: Stabilize Your System",
+      "files": [
+        "f_0026.xhtml"
+      ],
+      "start_line": 109,
+      "end_line": 165
+    },
+    {
+      "chapter": 4,
+      "title": "Chapter 4: Stability Antipatterns",
+      "files": [
+        "f_0033.xhtml"
+      ],
+      "start_line": 166,
+      "end_line": 254
+    },
+    {
+      "chapter": 5,
+      "title": "Chapter 5: Stability Patterns",
+      "files": [
+        "f_0047.xhtml"
+      ],
+      "start_line": 255,
+      "end_line": 279
+    },
+    {
+      "chapter": 6,
+      "title": "Chapter 6: Case Study: Phenomenal Cosmic Powers, Itty-Bitty Living Space",
+      "files": [
+        "f_0063.xhtml"
+      ],
+      "start_line": 280,
+      "end_line": 339
+    },
+    {
+      "chapter": 7,
+      "title": "Chapter 7: Foundations",
+      "files": [
+        "f_0074.xhtml"
+      ],
+      "start_line": 340,
+      "end_line": 399
+    },
+    {
+      "chapter": 8,
+      "title": "Chapter 8: Processes on Machines",
+      "files": [
+        "f_0078.xhtml"
+      ],
+      "start_line": 400,
+      "end_line": 490
+    },
+    {
+      "chapter": 9,
+      "title": "Chapter 9: Interconnect",
+      "files": [
+        "f_0083.xhtml"
+      ],
+      "start_line": 491,
+      "end_line": 511
+    },
+    {
+      "chapter": 10,
+      "title": "Chapter 10: Control Plane",
+      "files": [
+        "f_0092.xhtml"
+      ],
+      "start_line": 512,
+      "end_line": 536
+    },
+    {
+      "chapter": 11,
+      "title": "Chapter 11: Security",
+      "files": [
+        "f_0104.xhtml"
+      ],
+      "start_line": 537,
+      "end_line": 576
+    },
+    {
+      "chapter": 12,
+      "title": "Chapter 12: Case Study: Waiting for Godot",
+      "files": [
+        "f_0112.xhtml"
+      ],
+      "start_line": 577,
+      "end_line": 689
+    },
+    {
+      "chapter": 13,
+      "title": "Chapter 13: Design for Deployment",
+      "files": [
+        "f_0113.xhtml"
+      ],
+      "start_line": 690,
+      "end_line": 704
+    },
+    {
+      "chapter": 14,
+      "title": "Chapter 14: Handling Versions",
+      "files": [
+        "f_0121.xhtml"
+      ],
+      "start_line": 705,
+      "end_line": 723
+    },
+    {
+      "chapter": 15,
+      "title": "Chapter 15: Case Study: Trampled by Your Own Customers",
+      "files": [
+        "f_0127.xhtml"
+      ],
+      "start_line": 724,
+      "end_line": 750
+    },
+    {
+      "chapter": 16,
+      "title": "Chapter 16: Adaptation",
+      "files": [
+        "f_0134.xhtml"
+      ],
+      "start_line": 751,
+      "end_line": 780
+    },
+    {
+      "chapter": 17,
+      "title": "Chapter 17: Chaos Engineering",
+      "files": [
+        "f_0140.xhtml"
+      ],
+      "start_line": 781,
+      "end_line": 798
+    }
+  ]
+}

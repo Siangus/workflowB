@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-23T05:58:38.502208+00:00",
+  "book_id": "ford-greene-nature-of-software-development",
+  "title": "The Nature of Software Development",
+  "input_dir": "C:\\Users\\26877\\Desktop\\学习资料\\敏捷和持续交付markdown",
+  "ordered_by": "detected_page_range_then_filename",
+  "files": [
+    {
+      "path": "The_nature_of_software_development.md",
+      "size_bytes": 173106,
+      "line_count": 2360,
+      "char_count": 170953,
+      "estimated_tokens": 37092,
+      "heading_count": 107,
+      "page_range": null,
+      "candidate_count": 122
+    }
+  ],
+  "segment_count": 9,
+  "segments": [
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-000001",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 1,
+      "end_line": 259,
+      "title_guess": "Part I The Circle of Value",
+      "topics": [
+        "design",
+        "verification",
+        "teamwork"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 3368,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:1-259",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 1-259. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "# The Nature of Software Development"
+    },
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-000260",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 260,
+      "end_line": 527,
+      "title_guess": "Part I",
+      "topics": [
+        "problem-framing",
+        "design",
+        "release",
+        "teamwork"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3913,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:260-527",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 260-527. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Part I"
+    },
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-000528",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 528,
+      "end_line": 745,
+      "title_guess": "Chapter 16 , Managing Natural Software Development, on page 100",
+      "topics": [
+        "planning",
+        "release",
+        "teamwork"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3991,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:528-745",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 528-745. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 16, Managing Natural Software Development, on page 100"
+    },
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-000746",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 746,
+      "end_line": 973,
+      "title_guess": "Chapter 15 , The “Five-Card Method”for Initial Forecasting, on page 98.",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3391,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:746-973",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 746-973. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "Chapter 15, The “Five-Card Method”for Initial Forecasting, on page 98."
+    },
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-000974",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 974,
+      "end_line": 1251,
+      "title_guess": "CHAPTER 8",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4685,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:974-1251",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 974-1251. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## CHAPTER 8"
+    },
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-001252",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 1252,
+      "end_line": 1610,
+      "title_guess": "CHAPTER 12",
+      "topics": [
+        "problem-framing",
+        "design",
+        "verification",
+        "quality"
+      ],
+      "heading_confidence": 0.935,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7385,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:1252-1610",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 1252-1610. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "CHAPTER 12"
+    },
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-001611",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 1611,
+      "end_line": 1894,
+      "title_guess": "CHAPTER 19",
+      "topics": [
+        "planning",
+        "risk",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5429,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:1611-1894",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 1611-1894. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Summary"
+    },
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-001895",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 1895,
+      "end_line": 2231,
+      "title_guess": "CHAPTER 22",
+      "topics": [
+        "planning",
+        "risk",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 4025,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:1895-2231",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 1895-2231. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "# CHAPTER 22"
+    },
+    {
+      "segment_id": "SEG-ford-greene-nature-of-software-development-F01-002232",
+      "book_id": "ford-greene-nature-of-software-development",
+      "file": "The_nature_of_software_development.md",
+      "start_line": 2232,
+      "end_line": 2360,
+      "title_guess": "Pragmatic Thinking and Learning — continued",
+      "topics": [
+        "problem-framing",
+        "architecture",
+        "design",
+        "verification"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 900,
+      "status": "pending",
+      "source_locator": "The_nature_of_software_development.md:2232-2360",
+      "reading_prompt": "Read The_nature_of_software_development.md lines 2232-2360. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Pragmatic Thinking and Learning"
+    }
+  ],
+  "estimated_tokens": 37092,
+  "topic_distribution": {
+    "design": 8,
+    "verification": 3,
+    "teamwork": 3,
+    "problem-framing": 4,
+    "release": 2,
+    "planning": 4,
+    "requirements": 1,
+    "architecture": 3,
+    "construction": 3,
+    "quality": 1,
+    "risk": 2
+  },
+  "warnings": []
+}

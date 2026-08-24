@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-24T05:34:15.283827+00:00",
+  "book_id": "nygard-release-it-2e",
+  "title": "Release It!, Second Edition",
+  "input_dir": "C:\\Users\\26877\\Documents\\Codex\\2026-08-21\\c-users-26877-desktop-markdown\\work\\se-workflow\\sources\\nygard-release-it-2e",
+  "ordered_by": "detected_page_range_then_filename",
+  "files": [
+    {
+      "path": "extracted-book.md",
+      "size_bytes": 45174,
+      "line_count": 819,
+      "char_count": 43848,
+      "estimated_tokens": 9743,
+      "heading_count": 20,
+      "page_range": null,
+      "candidate_count": 20
+    },
+    {
+      "path": "source-profile.md",
+      "size_bytes": 990,
+      "line_count": 32,
+      "char_count": 986,
+      "estimated_tokens": 156,
+      "heading_count": 4,
+      "page_range": null,
+      "candidate_count": 4
+    }
+  ],
+  "segment_count": 5,
+  "segments": [
+    {
+      "segment_id": "SEG-nygard-release-it-2e-F01-000001",
+      "book_id": "nygard-release-it-2e",
+      "file": "extracted-book.md",
+      "start_line": 1,
+      "end_line": 254,
+      "title_guess": "Chapter 1 Living in Production",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 2970,
+      "status": "pending",
+      "source_locator": "extracted-book.md:1-254",
+      "reading_prompt": "Read extracted-book.md lines 1-254. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "# Release It!, Second Edition"
+    },
+    {
+      "segment_id": "SEG-nygard-release-it-2e-F01-000255",
+      "book_id": "nygard-release-it-2e",
+      "file": "extracted-book.md",
+      "start_line": 255,
+      "end_line": 490,
+      "title_guess": "Chapter 5 Stability Patterns",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2801,
+      "status": "pending",
+      "source_locator": "extracted-book.md:255-490",
+      "reading_prompt": "Read extracted-book.md lines 255-490. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 5: Stability Patterns"
+    },
+    {
+      "segment_id": "SEG-nygard-release-it-2e-F01-000491",
+      "book_id": "nygard-release-it-2e",
+      "file": "extracted-book.md",
+      "start_line": 491,
+      "end_line": 689,
+      "title_guess": "Chapter 9 Interconnect",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "verification"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2664,
+      "status": "pending",
+      "source_locator": "extracted-book.md:491-689",
+      "reading_prompt": "Read extracted-book.md lines 491-689. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 9: Interconnect"
+    },
+    {
+      "segment_id": "SEG-nygard-release-it-2e-F01-000690",
+      "book_id": "nygard-release-it-2e",
+      "file": "extracted-book.md",
+      "start_line": 690,
+      "end_line": 819,
+      "title_guess": "Chapter 13 Design for Deployment",
+      "topics": [
+        "design",
+        "verification",
+        "release",
+        "teamwork"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "page_split_recovery"
+      ],
+      "estimated_tokens": 1306,
+      "status": "pending",
+      "source_locator": "extracted-book.md:690-819",
+      "reading_prompt": "Read extracted-book.md lines 690-819. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## Chapter 13: Design for Deployment"
+    },
+    {
+      "segment_id": "SEG-nygard-release-it-2e-F02-000001",
+      "book_id": "nygard-release-it-2e",
+      "file": "source-profile.md",
+      "start_line": 1,
+      "end_line": 32,
+      "title_guess": "Source Profile — continued",
+      "topics": [
+        "planning",
+        "design",
+        "release",
+        "feedback"
+      ],
+      "heading_confidence": 0.675,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 156,
+      "status": "pending",
+      "source_locator": "source-profile.md:1-32",
+      "reading_prompt": "Read source-profile.md lines 1-32. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "# Source Profile"
+    }
+  ],
+  "estimated_tokens": 9899,
+  "topic_distribution": {
+    "problem-framing": 3,
+    "planning": 3,
+    "requirements": 1,
+    "architecture": 2,
+    "risk": 2,
+    "design": 3,
+    "verification": 2,
+    "release": 2,
+    "teamwork": 1,
+    "feedback": 1
+  },
+  "warnings": []
+}

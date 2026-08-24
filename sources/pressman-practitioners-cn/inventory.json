@@ -1,0 +1,1837 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-23T04:26:07.734514+00:00",
+  "book_id": "pressman-practitioners-cn",
+  "title": "软件工程——实践者的研究方法",
+  "input_dir": "C:\\Users\\26877\\Desktop\\学习资料\\软件工程markdown",
+  "ordered_by": "detected_page_range_then_filename",
+  "files": [
+    {
+      "path": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "size_bytes": 572305,
+      "line_count": 5767,
+      "char_count": 227796,
+      "estimated_tokens": 141637,
+      "heading_count": 265,
+      "page_range": [
+        1,
+        200
+      ],
+      "candidate_count": 385
+    },
+    {
+      "path": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "size_bytes": 571330,
+      "line_count": 6584,
+      "char_count": 232061,
+      "estimated_tokens": 138842,
+      "heading_count": 280,
+      "page_range": [
+        201,
+        400
+      ],
+      "candidate_count": 389
+    },
+    {
+      "path": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "size_bytes": 322727,
+      "line_count": 4195,
+      "char_count": 139168,
+      "estimated_tokens": 77896,
+      "heading_count": 157,
+      "page_range": [
+        401,
+        517
+      ],
+      "candidate_count": 203
+    }
+  ],
+  "segment_count": 76,
+  "segments": [
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-000001",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 1,
+      "end_line": 245,
+      "title_guess": "第一部 分 产品和过程",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.825,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 6935,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:1-245",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 1-245. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "学校的理想装备"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-000246",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 246,
+      "end_line": 427,
+      "title_guess": "1.x continuation",
+      "topics": [
+        "risk",
+        "requirements",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 6060,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:246-427",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 246-427. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 1.2 软件"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-000428",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 428,
+      "end_line": 632,
+      "title_guess": "第 2 章 过程",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4818,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:428-632",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 428-632. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 第 2 章 过程"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-000633",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 633,
+      "end_line": 822,
+      "title_guess": "2.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7346,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:633-822",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 633-822. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 2.5 原型模型"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-000823",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 823,
+      "end_line": 1116,
+      "title_guess": "第二部 分 软件项目的管理",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6676,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:823-1116",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 823-1116. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 2.12 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-001117",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 1117,
+      "end_line": 1297,
+      "title_guess": "3.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 3095,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:1117-1297",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 1117-1297. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 3.3 问题"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-001298",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 1298,
+      "end_line": 1603,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.78,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7612,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:1298-1603",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 1298-1603. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "3.8 你被指派为一个大型软件产品公司的项目管理者。你的工作是管理该公司已被广泛使用的字处理软件的新版本的开发。因为竞争激烈，已经规定了严格的期限，并对外公布。你会选择哪种小组结构？为什么？你会选择哪(些)种软件过程模型？为什么？"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-001604",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 1604,
+      "end_line": 1787,
+      "title_guess": "4.x continuation",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 4466,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:1604-1787",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 1604-1787. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 4.4 调和不同的度量方法"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-001788",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 1788,
+      "end_line": 1978,
+      "title_guess": "第 5 章 软件项目计划",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4249,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:1788-1978",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 1788-1978. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "4.12 计算一个嵌入式系统的3D功能点值，它具有下面的特性值："
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-001979",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 1979,
+      "end_line": 2208,
+      "title_guess": "5.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6765,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:1979-2208",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 1979-2208. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 5.4 资源"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-002209",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 2209,
+      "end_line": 2424,
+      "title_guess": "5.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4109,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:2209-2424",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 2209-2424. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 5.7 经验估算模型"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-002425",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 2425,
+      "end_line": 2782,
+      "title_guess": "第 6 章 风险管理",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6196,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:2425-2782",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 2425-2782. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 5.9 自动估算工具"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-002783",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 2783,
+      "end_line": 2976,
+      "title_guess": "6.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4874,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:2783-2976",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 2783-2976. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 6.3.7 与人员数目及经验相关的风险"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-002977",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 2977,
+      "end_line": 3166,
+      "title_guess": "第 7 章 项目进度安排及跟踪",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4908,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:2977-3166",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 2977-3166. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 6.8 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-003167",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 3167,
+      "end_line": 3412,
+      "title_guess": "7.x continuation",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4383,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:3167-3412",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 3167-3412. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 7.3 为软件项目定义任务集合"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-003413",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 3413,
+      "end_line": 3652,
+      "title_guess": "第 8 章 软件质量保证",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6643,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:3413-3652",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 3413-3652. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 7.6 定义任务网络"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-003653",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 3653,
+      "end_line": 3846,
+      "title_guess": "8.x continuation",
+      "topics": [
+        "planning",
+        "requirements",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 5334,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:3653-3846",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 3653-3846. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 8.2 质量运动"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-003847",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 3847,
+      "end_line": 4028,
+      "title_guess": "8.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4674,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:3847-4028",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 3847-4028. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 8.6 SQA 的形式化方法"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-004029",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 4029,
+      "end_line": 4220,
+      "title_guess": "第 9 章 软件配置管理",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3921,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:4029-4220",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 4029-4220. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 8.10 ISO 9000 质量标准"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-004221",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 4221,
+      "end_line": 4402,
+      "title_guess": "第三部 分 传统软件工程方法",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 4656,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:4221-4402",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 4221-4402. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 9.2 SCM 过程"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-004403",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 4403,
+      "end_line": 4652,
+      "title_guess": "第 10 章 系统工程",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5514,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:4403-4652",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 4403-4652. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 第 10 章 系统工程"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-004653",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 4653,
+      "end_line": 4916,
+      "title_guess": "10.x continuation",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "risk",
+        "requirements"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6013,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:4653-4916",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 4653-4916. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 10.5 业务域分析"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-004917",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 4917,
+      "end_line": 5110,
+      "title_guess": "第 11 章 分析概念和原则",
+      "topics": [
+        "problem-framing",
+        "planning",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 5032,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:4917-5110",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 4917-5110. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 10.7 系统体系结构建模"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-005111",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 5111,
+      "end_line": 5326,
+      "title_guess": "11.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "release"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6054,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:5111-5326",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 5111-5326. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 11.2 通信技术"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-005327",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 5327,
+      "end_line": 5506,
+      "title_guess": "11.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4133,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:5327-5506",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 5327-5506. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 11.4 软件原型"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-005507",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 5507,
+      "end_line": 5708,
+      "title_guess": "第 12 章 分析建模",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5118,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:5507-5708",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 5507-5708. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 11.7 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F01-005709",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md",
+      "start_line": 5709,
+      "end_line": 5767,
+      "title_guess": "12.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "page_split_recovery"
+      ],
+      "estimated_tokens": 2040,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md:5709-5767",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法1-200.md lines 5709-5767. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 12.4 功能建模和信息流"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-000001",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 1,
+      "end_line": 226,
+      "title_guess": "12.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.71,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 6272,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:1-226",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 1-226. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "控制流可以直接输入到一个传统的加工或控制加工中，图12－16以Ward和Mellor的符号说明控制流和加工，该图说明了一个制造车间<sup>①</sup>的数据和控制流的顶层视图。当要被机器人组装的部件放在工作固件上时，就设置指示每个部件存在或空缺的“部件状态缓冲器”(一个控制存储件)的某个状态位，包含在“部件状态缓冲器”中的事件信息作为“位串”传递给加工“监控固件和操作接口”，该加工只在控制信息“位串”指示所有的工作固件都有部件时才读“操作命令”。一个事件标志“开始/停止”发送给“机器人初始化控制”，它是一个使得进一步的命令处理可以进行的控制加工。作为发送给“处理机器人命令”的“处理活动”事件的后继结果，产生了其他数据流。"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-000227",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 227,
+      "end_line": 406,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4179,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:227-406",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 227-406. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 12.8 其他传统分析方法的概述"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-000407",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 407,
+      "end_line": 614,
+      "title_guess": "13.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5825,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:407-614",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 407-614. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 13.3 设计原则"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-000615",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 615,
+      "end_line": 822,
+      "title_guess": "13.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 5502,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:615-822",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 615-822. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 13.5 有效的模块设计"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-000823",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 823,
+      "end_line": 1012,
+      "title_guess": "第 14 章 设计方法",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5921,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:823-1012",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 823-1012. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 第 14 章 设计方法"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-001013",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 1013,
+      "end_line": 1254,
+      "title_guess": "14.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5314,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:1013-1254",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 1013-1254. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 14.6 设计的后处理"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-001255",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 1255,
+      "end_line": 1476,
+      "title_guess": "14.x continuation",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4542,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:1255-1476",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 1255-1476. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 14.10 界面设计指南"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-001477",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 1477,
+      "end_line": 1708,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6694,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:1477-1708",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 1477-1708. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 14.12 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-001709",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 1709,
+      "end_line": 1896,
+      "title_guess": "15.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 5076,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:1709-1896",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 1709-1896. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 15.3 实时系统的分析和仿真"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-001897",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 1897,
+      "end_line": 2088,
+      "title_guess": "第 16 章 软件测试技术",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4107,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:1897-2088",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 1897-2088. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "15.2 获取关于商用实时操作系统的信息(RTOS)，并写一篇短文来讨论RTOS的内核。它有什么特殊的特征？中断处理是怎样的？RTOS是如何实现任务同步的？"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-002089",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 2089,
+      "end_line": 2276,
+      "title_guess": "16.x continuation",
+      "topics": [
+        "design",
+        "construction",
+        "verification",
+        "operations"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2310,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:2089-2276",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 2089-2276. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 16.4 基本路径测试"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-002277",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 2277,
+      "end_line": 2589,
+      "title_guess": "None.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5513,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:2277-2589",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 2277-2589. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 16.5 控制结构测试"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-002590",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 2590,
+      "end_line": 2769,
+      "title_guess": "16.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 2820,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:2590-2769",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 2590-2769. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 16.7 针对专门环境和应用的测试"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-002770",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 2770,
+      "end_line": 3003,
+      "title_guess": "第 17 章 软件测试策略",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6099,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:2770-3003",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 2770-3003. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "16.6 阅读 Beizer［BEI95］一文并尝试使思考题 16.5 中开发的程序如何扩展以适应各种连接权值。扩展你的工具以处理执行概率或连接处理时间。"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-003004",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 3004,
+      "end_line": 3189,
+      "title_guess": "17.x continuation",
+      "topics": [
+        "planning",
+        "requirements",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.78,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5917,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:3004-3189",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 3004-3189. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "17.4 集成测试 一个在软件世界里初出茅庐的年轻人可能在所有的模块都已经完成单元测试之后会问这样一个似乎很合理的问题：“如果它们每一个都能单独工作得很好，那么你为什么要怀疑把它们放在一起就不能正常工作呢？”当然，这个问题就在于“把它们如何放在一起？”——接口。数据可能在通过接口的时候丢失；一个模块可能对另外一个模块产生无法预料的副作用；当子函数被联到一起的时候，可能不能达到期望中的功能；在单个模块中可以接受的不精确性在联起来之后可能会扩大到无法接受的程度；全局数据结构可能也会存在问题——还有很多，很多。"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-003190",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 3190,
+      "end_line": 3465,
+      "title_guess": "第 18 章 软件的技术度量",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5974,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:3190-3465",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 3190-3465. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 17.7 调试的技巧"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-003466",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 3466,
+      "end_line": 3701,
+      "title_guess": "18.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3925,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:3466-3701",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 3466-3701. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 18.2 软件技术度量框架"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-003702",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 3702,
+      "end_line": 3949,
+      "title_guess": "18.x continuation",
+      "topics": [
+        "architecture",
+        "design",
+        "verification",
+        "feedback"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3936,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:3702-3949",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 3702-3949. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 18.4 设计模型的度量"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-003950",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 3950,
+      "end_line": 4129,
+      "title_guess": "18.x continuation",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 3439,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:3950-4129",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 3950-4129. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 18.5 源代码度量"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-004130",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 4130,
+      "end_line": 4325,
+      "title_guess": "第四部 分 面向对象的软件工程",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "design"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4496,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:4130-4325",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 4130-4325. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 第四部分 面向对象的软件工程"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-004326",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 4326,
+      "end_line": 4613,
+      "title_guess": "19.x continuation",
+      "topics": [
+        "planning",
+        "requirements",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5911,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:4326-4613",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 4326-4613. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 19.3 标识对象模型的元素"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-004614",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 4614,
+      "end_line": 4861,
+      "title_guess": "第 20 章 面向对象分析",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3055,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:4614-4861",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 4614-4861. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 19.5 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-004862",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 4862,
+      "end_line": 5137,
+      "title_guess": "20.x continuation",
+      "topics": [
+        "planning",
+        "requirements",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7212,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:4862-5137",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 4862-5137. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 20.2 领域分析"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-005138",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 5138,
+      "end_line": 5327,
+      "title_guess": "第 21 章 面向对象设计",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 4431,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:5138-5327",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 5138-5327. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 20.5 对象—关系模型"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-005328",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 5328,
+      "end_line": 5619,
+      "title_guess": "21.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2925,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:5328-5619",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 5328-5619. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 21.1 面向对象系统的设计"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-005620",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 5620,
+      "end_line": 5958,
+      "title_guess": "21.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5313,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:5620-5958",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 5620-5958. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 21.2 OO设计模型的类属成分"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-005959",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 5959,
+      "end_line": 6144,
+      "title_guess": "21.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2869,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:5959-6144",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 5959-6144. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 21.5 设计模式"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-006145",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 6145,
+      "end_line": 6426,
+      "title_guess": "第 22 章 面向对象测试",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 6362,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:6145-6426",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 6145-6426. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 第 22 章 面向对象测试"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F02-006427",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md",
+      "start_line": 6427,
+      "end_line": 6584,
+      "title_guess": "22.x continuation",
+      "topics": [
+        "design",
+        "verification",
+        "quality",
+        "teamwork"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary",
+        "page_split_recovery"
+      ],
+      "estimated_tokens": 2890,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md:6427-6584",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_201-400.md lines 6427-6584. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 22.5 在类级别上可用的测试方法"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-000001",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 1,
+      "end_line": 206,
+      "title_guess": "23.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.71,
+      "boundary_reason": [
+        "file_start"
+      ],
+      "estimated_tokens": 4398,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:1-206",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 1-206. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "在本书前面我们提到，测度和度量是任何工程学科的关键构成成分——面向对象软件工程也不例外。可悲的是，对 OO系统的度量的使用比其他 OO方法的使用的进展要慢得多。EdBerard［BER95］提到如下对测度的讽刺："
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-000207",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 207,
+      "end_line": 504,
+      "title_guess": "第五部 分 软件工程高级课题",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 6081,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:207-504",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 207-504. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 23.7 对面向对象项目的度量"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-000505",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 505,
+      "end_line": 788,
+      "title_guess": "24.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2494,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:505-788",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 505-788. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 24.2 数学预备知识"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-000789",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 789,
+      "end_line": 987,
+      "title_guess": "24.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 3461,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:789-987",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 789-987. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 24.3 应用数学符号描述形式规约"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-000988",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 988,
+      "end_line": 1187,
+      "title_guess": "第 25 章 净室软件工程",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3472,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:988-1187",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 988-1187. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 24.8 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-001188",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 1188,
+      "end_line": 1382,
+      "title_guess": "25.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4284,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:1188-1382",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 1188-1382. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 25.2 功能规约"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-001383",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 1383,
+      "end_line": 1657,
+      "title_guess": "25.x continuation",
+      "topics": [
+        "requirements",
+        "design",
+        "verification",
+        "release"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 2069,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:1383-1657",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 1383-1657. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 25.5 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-001658",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 1658,
+      "end_line": 1929,
+      "title_guess": "第 26 章 软件复用",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.95,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5613,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:1658-1929",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 1658-1929. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 第 26 章 软件复用"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-001930",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 1930,
+      "end_line": 2168,
+      "title_guess": "26.x continuation",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5210,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:1930-2168",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 1930-2168. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 26.4 建造可复用构件"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-002169",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 2169,
+      "end_line": 2352,
+      "title_guess": "26.x continuation",
+      "topics": [
+        "planning",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 1227,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:2169-2352",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 2169-2352. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 26.7 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-002353",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 2353,
+      "end_line": 2542,
+      "title_guess": "第 27 章 再工程",
+      "topics": [
+        "problem-framing",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.895,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3780,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:2353-2542",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 2353-2542. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "26.3 研究一下领域工程并丰富在图 26.2 中概述的过程模型。标识对领域分析和软件体系结构开发所需的任务。"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-002543",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 2543,
+      "end_line": 2776,
+      "title_guess": "27.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 5386,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:2543-2776",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 2543-2776. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 27.2 软件再工程"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-002777",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 2777,
+      "end_line": 2956,
+      "title_guess": "27.x continuation",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 3122,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:2777-2956",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 2777-2956. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 27.4 重构"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-002957",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 2957,
+      "end_line": 3186,
+      "title_guess": "第 28 章 客户/服务器软件工程",
+      "topics": [
+        "problem-framing",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4727,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:2957-3186",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 2957-3186. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 27.7 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-003187",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 3187,
+      "end_line": 3380,
+      "title_guess": "28.x continuation",
+      "topics": [
+        "requirements",
+        "architecture",
+        "design",
+        "construction"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 4759,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:3187-3380",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 3187-3380. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 28.2 对 C/S系统的软件工程"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-003381",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 3381,
+      "end_line": 3564,
+      "title_guess": "第 29 章 计算机辅助软件工程",
+      "topics": [
+        "architecture",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 1917,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:3381-3564",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 3381-3564. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 28.6 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-003565",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 3565,
+      "end_line": 3790,
+      "title_guess": "29.x continuation",
+      "topics": [
+        "planning",
+        "risk",
+        "requirements",
+        "architecture"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary"
+      ],
+      "estimated_tokens": 7837,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:3565-3790",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 3565-3790. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 29.2 构造 CASE 的积木块"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-003791",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 3791,
+      "end_line": 3976,
+      "title_guess": "第 30 章 未来之路",
+      "topics": [
+        "architecture",
+        "design",
+        "construction",
+        "verification"
+      ],
+      "heading_confidence": 0.915,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 2419,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:3791-3976",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 3791-3976. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 29.7 小结"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-003977",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 3977,
+      "end_line": 4156,
+      "title_guess": "30.x continuation",
+      "topics": [
+        "risk",
+        "requirements",
+        "architecture",
+        "design"
+      ],
+      "heading_confidence": 0.8,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 4922,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:3977-4156",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 3977-4156. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "## 30.2 变化的范围"
+    },
+    {
+      "segment_id": "SEG-pressman-practitioners-cn-F03-004157",
+      "book_id": "pressman-practitioners-cn",
+      "file": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md",
+      "start_line": 4157,
+      "end_line": 4195,
+      "title_guess": "30.x continuation",
+      "topics": [
+        "maintenance",
+        "quality",
+        "teamwork"
+      ],
+      "heading_confidence": 0.78,
+      "boundary_reason": [
+        "candidate_or_semantic_boundary",
+        "summary_boundary"
+      ],
+      "estimated_tokens": 708,
+      "status": "pending",
+      "source_locator": "软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md:4157-4195",
+      "reading_prompt": "Read 软件工程——实践者的研究方法_pdf_--_软件工程——实践者的研究方法_401-517.md lines 4157-4195. Extract reusable methods, artifacts, gates, roles, checks, tailoring rules, and anti-patterns.",
+      "preview": "30.4 复审在第 2 章中讨论的演化过程，研究之并收集当前该主题的论文，基于论文中描述的经验总结演化范型的优势和缺点。"
+    }
+  ],
+  "estimated_tokens": 358375,
+  "topic_distribution": {
+    "risk": 26,
+    "requirements": 70,
+    "architecture": 39,
+    "design": 63,
+    "construction": 36,
+    "problem-framing": 10,
+    "planning": 32,
+    "release": 2,
+    "verification": 17,
+    "operations": 1,
+    "feedback": 1,
+    "quality": 2,
+    "teamwork": 2,
+    "maintenance": 1
+  },
+  "warnings": []
+}
