@@ -25,19 +25,19 @@ REQUIRED_DOCUMENTS = (
     "13-design-readiness-review.md",
     "arc42.md",
 )
-ARC42_SECTIONS = (
-    "## 1. Introduction and Goals",
-    "## 2. Architecture Constraints",
-    "## 3. System Scope and Context",
-    "## 4. Solution Strategy",
-    "## 5. Building Block View",
-    "## 6. Runtime View",
-    "## 7. Deployment View",
-    "## 8. Cross-Cutting Concepts",
-    "## 9. Architecture Decisions",
-    "## 10. Quality Requirements",
-    "## 11. Risks and Technical Debt",
-    "## 12. Glossary",
+ARC42_SECTION_OPTIONS = (
+    ("## 1. Introduction and Goals", "## 1. 引言与目标"),
+    ("## 2. Architecture Constraints", "## 2. 架构约束"),
+    ("## 3. System Scope and Context", "## 3. 系统范围与上下文"),
+    ("## 4. Solution Strategy", "## 4. 解决方案策略"),
+    ("## 5. Building Block View", "## 5. 构建块视图"),
+    ("## 6. Runtime View", "## 6. 运行时视图"),
+    ("## 7. Deployment View", "## 7. 部署视图"),
+    ("## 8. Cross-Cutting Concepts", "## 8. 横切概念"),
+    ("## 9. Architecture Decisions", "## 9. 架构决策"),
+    ("## 10. Quality Requirements", "## 10. 质量需求"),
+    ("## 11. Risks and Technical Debt", "## 11. 风险与技术债"),
+    ("## 12. Glossary", "## 12. 词汇表"),
 )
 REQUIREMENT_PATTERN = re.compile(r"^\|\s*(FR-(?:[A-Z]+-)?\d+)\s*\|")
 SCENARIO_ID_PATTERN = re.compile(r"^\|\s*([A-Z][A-Z0-9-]*-\d+)\s*\|")
@@ -80,9 +80,9 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
     arc42_path = design_path / "arc42.md"
     if arc42_path.is_file():
         arc42_text = read_text(arc42_path)
-        for section in ARC42_SECTIONS:
-            if section not in arc42_text:
-                errors.append(f"arc42 missing section: {section}")
+        for headings in ARC42_SECTION_OPTIONS:
+            if not any(heading in arc42_text for heading in headings):
+                errors.append(f"arc42 missing section: {' / '.join(headings)}")
 
     requirements_path = design_path / "01-requirements-baseline.md"
     traceability_path = design_path / "11-traceability-matrix.md"
@@ -100,7 +100,7 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
             errors.append("traceability matrix contains no FR-* rows")
     if acceptance_strategy_path.is_file():
         strategy_text = read_text(acceptance_strategy_path)
-        if not re.search(r"^\|\s*Scenario ID\s*\|", strategy_text, re.MULTILINE):
+        if not re.search(r"^\|\s*(Scenario ID|场景 ID)\s*\|", strategy_text, re.MULTILINE):
             errors.append("acceptance strategy lacks a Scenario ID catalog")
         strategy_scenario_ids = scenario_ids(acceptance_strategy_path)
         if not strategy_scenario_ids:
