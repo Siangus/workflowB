@@ -38,3 +38,11 @@
 - **knowledge units added:** 13
 - **conflicts recorded:** 2
 - **status:** draft-ready; reliability, deployment, and failure testing strengthened
+
+## MERGE-0005
+
+- **at:** 2026-08-24T09:00:00+00:00
+- **sources:** existing integrated units `KU-0015`, `KU-0017`–`KU-0021`, `KU-0028`, `KU-0030`–`KU-0034`, `KU-0037`, `KU-0041`, `KU-0043`–`KU-0044`, `KU-0052`–`KU-0062`, `KU-0065`, `KU-0067`
+- **action:** Workflow B re-synthesis for evidence-backed requirements and implementation-detail constraints
+- **result:** added the evidence-and-implementation-detail contract, risk-triggered artifact templates, active-review gate, and non-self-approval rule; deprecated existence-only readiness semantics
+- **status:** synthesized from existing source-backed units; no raw-source ingestion added

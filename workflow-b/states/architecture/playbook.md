@@ -1,32 +1,32 @@
 # Architecture and Domain Design Playbook
 
-**Goal:** Select boundaries, quality tactics, integration contracts, and implementation patterns for the next value slice.
+**Goal:** Select and explain boundaries, quality responses, interfaces, and implementation constraints for the next value slice.
 
 **Entry:** Testable scope and architecturally significant requirements are known.
 
 ## Activities
-1. Define quality attribute scenarios.
-2. Choose module, runtime, deployment, and behavior views.
-3. Apply incremental architecture design.
-4. Select domain, data, concurrency, presentation, and distribution patterns only when justified.
-5. Document interfaces, rationale, mappings, and debt.
-6. Evaluate the architecture against stakeholder risks.
+1. Select architecturally significant requirements and quality scenarios with their evidence and priority.
+2. Choose only the views required by stakeholder decisions; specify each view's elements, relations, semantics, catalog, and rationale.
+3. Apply incremental architecture design and record alternatives for consequential choices.
+4. Define domain boundaries, data ownership, consistency/invariant boundaries, and integration/change relationships where applicable.
+5. Specify interfaces and high-risk behavior well enough for consumers, implementers, and testers to work independently.
+6. For concurrency, failure, or distributed effects, define the business transaction, contention/failure traces, recovery, and verification oracle.
+7. Evaluate high-risk scenarios with stakeholders; record risks, sensitivity points, trade-offs, and needed experiments.
 
 ## Outputs
 - Quality attribute scenarios
-- Architecture decision record
-- Selected views and mappings
-- Interface/behavior contracts
-- Pattern decision
-- Evaluation findings
-- Architecture debt items
+- Architecture decision records with alternatives and validation
+- View catalog, views, element/relation catalogs, and mappings
+- Interface and behavior contracts
+- Data ownership, consistency, and recovery design when triggered
+- Evaluation findings and architecture debt items
 
 ## Exit Evidence
-- Architecture drivers have design responses.
-- Boundaries and ownership are reviewable.
-- Interfaces and behavior are testable.
-- Major trade-offs and risks are recorded.
-- Documentation is usable by intended stakeholders.
+- Architecture drivers have evidence-backed design responses and validation plans.
+- Boundaries, ownership, invariants, and integration/change policies are reviewable.
+- Interfaces and high-risk behaviors specify normal, error, timeout, and ordering semantics.
+- Major trade-offs, sensitivity points, assumptions, and risks are recorded with owners.
+- Intended stakeholders can use the documentation to answer their implementation or review questions.
 
 ## Quality Gates
 - Quality scenario review
@@ -41,6 +41,7 @@
 ## Load Next
 - `states/architecture/checklist.md`
 - `states/architecture/methods-index.md`
+- `L2/quality-contracts/evidence-and-implementation-detail.md`
 - `cross-cutting/security/index.md`
 - `cross-cutting/data-and-privacy/index.md`
 - `cross-cutting/performance/index.md`

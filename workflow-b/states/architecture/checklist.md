@@ -2,11 +2,14 @@
 
 Check each item with evidence; do not use percentage-complete as a substitute.
 
-- [ ] Architecture drivers have design responses.
-- [ ] Boundaries and ownership are reviewable.
-- [ ] Interfaces and behavior are testable.
-- [ ] Major trade-offs and risks are recorded.
-- [ ] Documentation is usable by intended stakeholders.
+- [ ] Each architecture driver links to evidence, a design response, an owner, and a validation approach.
+- [ ] Each selected view has a stakeholder question, primary representation, catalog, relation semantics, rationale, and necessary mapping.
+- [ ] Boundaries, ownership, invariants, and integration/change policies are reviewable.
+- [ ] Interfaces and high-risk behavior define normal, error, timeout, ordering, and compatibility semantics.
+- [ ] Data ownership, durable constraints, and recovery are specified where they affect correctness.
+- [ ] Concurrent/distributed paths define transaction boundary, conflict/failure behavior, retry/idempotency semantics, and an invariant oracle.
+- [ ] Major trade-offs, sensitivity points, assumptions, and risks are recorded with owners.
+- [ ] Intended readers can answer their questions in an active walkthrough.
 
 ## Gates
 - [ ] Quality scenario review

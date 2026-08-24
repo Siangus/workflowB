@@ -10,6 +10,7 @@ from pathlib import Path
 REQUIRED_DOCUMENTS = (
     "00-charter.md",
     "01-requirements-baseline.md",
+    "evidence-register.md",
     "02-domain-and-state-model.md",
     "03-quality-attribute-scenarios.md",
     "04-architecture-overview.md",
@@ -38,7 +39,7 @@ ARC42_SECTIONS = (
     "## 12. Glossary",
 )
 REQUIREMENT_PATTERN = re.compile(r"^\|\s*(FR-[A-Z]+-\d+)\s*\|")
-TEST_ID_PATTERN = re.compile(r"^\|\s*([A-Z][A-Z0-9-]*-\d+)\s*\|")
+SCENARIO_ID_PATTERN = re.compile(r"^\|\s*([A-Z][A-Z0-9-]*-\d+)\s*\|")
 
 
 def read_text(path: Path) -> str:
@@ -53,11 +54,11 @@ def markdown_ids(path: Path) -> dict[str, str]:
     }
 
 
-def test_ids(path: Path) -> set[str]:
+def scenario_ids(path: Path) -> set[str]:
     return {
         match.group(1)
         for line in read_text(path).splitlines()
-        if (match := TEST_ID_PATTERN.match(line))
+        if (match := SCENARIO_ID_PATTERN.match(line))
     }
 
 
@@ -83,10 +84,10 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
 
     requirements_path = design_path / "01-requirements-baseline.md"
     traceability_path = design_path / "11-traceability-matrix.md"
-    test_strategy_path = design_path / "10-test-and-acceptance-strategy.md"
+    acceptance_strategy_path = design_path / "10-test-and-acceptance-strategy.md"
     requirement_ids: dict[str, str] = {}
     trace_rows: dict[str, str] = {}
-    strategy_test_ids: set[str] = set()
+    strategy_scenario_ids: set[str] = set()
     if requirements_path.is_file():
         requirement_ids = markdown_ids(requirements_path)
         if not requirement_ids:
@@ -95,13 +96,13 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
         trace_rows = markdown_ids(traceability_path)
         if not trace_rows:
             errors.append("traceability matrix contains no FR-* rows")
-    if test_strategy_path.is_file():
-        strategy_text = read_text(test_strategy_path)
-        if not re.search(r"^\|\s*Test ID\s*\|", strategy_text, re.MULTILINE):
-            errors.append("test strategy lacks a Test ID catalog")
-        strategy_test_ids = test_ids(test_strategy_path)
-        if not strategy_test_ids:
-            errors.append("test strategy contains no named test IDs")
+    if acceptance_strategy_path.is_file():
+        strategy_text = read_text(acceptance_strategy_path)
+        if not re.search(r"^\|\s*Scenario ID\s*\|", strategy_text, re.MULTILINE):
+            errors.append("acceptance strategy lacks a Scenario ID catalog")
+        strategy_scenario_ids = scenario_ids(acceptance_strategy_path)
+        if not strategy_scenario_ids:
+            errors.append("acceptance strategy contains no named scenario IDs")
 
     for requirement_id in requirement_ids:
         trace_row = trace_rows.get(requirement_id)
@@ -109,17 +110,17 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
             errors.append(f"requirement lacks a traceability row: {requirement_id}")
             continue
         columns = [column.strip() for column in trace_row.strip("|").split("|")]
-        if len(columns) < 6 or not columns[4] or columns[4] in {"N/A", "TBD"}:
-            errors.append(f"requirement lacks a test identifier: {requirement_id}")
-        elif columns[4] not in strategy_test_ids:
-            errors.append(f"traceability test ID is absent from the test strategy: {requirement_id} -> {columns[4]}")
+        if len(columns) < 7 or not columns[5] or columns[5] in {"N/A", "TBD"}:
+            errors.append(f"requirement lacks an acceptance scenario identifier: {requirement_id}")
+        elif columns[5] not in strategy_scenario_ids:
+            errors.append(f"traceability scenario is absent from the acceptance strategy: {requirement_id} -> {columns[5]}")
 
     review_path = design_path / "13-design-readiness-review.md"
     if review_path.is_file():
         review_text = read_text(review_path)
-        approved = re.search(r"^- \[x\] (APPROVED|APPROVED_WITH_RISKS)$", review_text, re.MULTILINE)
-        if not approved:
-            errors.append("design-readiness review lacks APPROVED or APPROVED_WITH_RISKS decision")
+        ready_for_review = re.search(r"^- \[x\] READY_FOR_HUMAN_REVIEW$", review_text, re.MULTILINE)
+        if not ready_for_review:
+            errors.append("design-readiness review lacks READY_FOR_HUMAN_REVIEW recommendation")
         if "- [x] REWORK_REQUIRED" in review_text:
             errors.append("design-readiness review marks REWORK_REQUIRED")
 
@@ -127,7 +128,7 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
         "required_documents": len(REQUIRED_DOCUMENTS),
         "requirements": len(requirement_ids),
         "trace_rows": len(trace_rows),
-        "named_tests": len(strategy_test_ids),
+        "named_acceptance_scenarios": len(strategy_scenario_ids),
         "adr_files": len(adr_files),
     }
     return errors, warnings, stats
@@ -140,7 +141,7 @@ def main() -> int:
     design_path = args.design_package.resolve()
     errors, warnings, stats = validate(design_path)
     result = {
-        "status": "blocked" if errors else ("warnings" if warnings else "ready"),
+        "status": "blocked" if errors else ("warnings" if warnings else "ready_for_human_review"),
         "design_package": str(design_path),
         "stats": stats,
         "errors": errors,

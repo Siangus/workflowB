@@ -9,7 +9,8 @@ Load this file first. It routes the agent without loading source cards or detail
 3. Load the current state's `playbook.md`, `checklist.md`, and `methods-index.md`.
 4. Enable only the cross-cutting modules triggered by the profile or current risk.
 5. Load L2 methods or templates for the concrete activity.
-6. Load L3 provenance only for traceability, disagreement, audit, or deep study.
+6. Load the L2 evidence-and-implementation-detail contract before baselining requirements or declaring a design package ready.
+7. Load L3 provenance only for traceability, disagreement, audit, or deep study.
 
 ## Loading Levels
 
@@ -24,4 +25,4 @@ Do not load `registry/` or `sources/` during ordinary work.
 
 ## Construction Gate
 
-`construction` is unavailable until `design-readiness` records `APPROVED` or `APPROVED_WITH_RISKS`. `REWORK_REQUIRED` returns to requirements or architecture.
+`construction` is unavailable until the evidence package is `READY_FOR_HUMAN_REVIEW`, all construction-blocking decisions are resolved, and an accountable human records acceptance or explicit risk acceptance. Agents cannot self-approve a design package. `REWORK_REQUIRED` returns to requirements or architecture.

@@ -60,6 +60,7 @@ cross_cutting:
     - cross-cutting/performance/index.md
 on_demand:
   methods: L2/methods/
+  quality_contracts: L2/quality-contracts/
   patterns: L2/patterns/
   test_strategies: L2/test-strategies/
   templates: templates/

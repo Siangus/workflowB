@@ -1,7 +1,9 @@
 # Test and Acceptance Strategy
 
-| Test ID | Requirement / Scenario | Unit | Integration | Contract | Acceptance | Load / Failure | Data / Environment | Exit Evidence |
-|---|---|---|---|---|---|---|---|
+An ID is only an index. Each acceptance scenario must specify setup, stimulus, observable/durable facts, prohibited facts, and observation method using `templates/acceptance-scenario.md`.
+
+| Scenario ID | Requirement / Rule IDs | Intent / Risk | Scenario Document | Verification Layer | Environment / Data | Automation Status |
+|---|---|---|---|---|---|---|
 
 ## Defect Triage
 

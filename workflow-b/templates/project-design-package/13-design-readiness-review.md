@@ -1,21 +1,29 @@
-# Design Readiness Review
+# Design Readiness Active Review
 
-## Review Participants
+## Review Scope and Participants
 
-## Evidence Reviewed
+| Role | Named Reviewer | Intended Questions | Evidence / Scenarios Sampled | Participation Evidence |
+|---|---|---|---|---|
+
+## Active Walkthrough Results
+
+| Area | Question Asked | Artifact / Scenario Used | Answer / Finding | Owner | Disposition / Evidence |
+|---|---|---|---|---|---|
 
 ## Findings
 
-| ID | Finding / Risk | Severity | Owner | Required Action | Due Before Construction |
-|---|---|---|---|---|---|
+| ID | Finding / Risk | Affected Requirement / Driver | Blocking Level | Owner | Required Action | Due | Closure Evidence |
+|---|---|---|---|---|---|---|---|
 
-## Decision
+## Agent Recommendation
 
-- [ ] APPROVED
-- [ ] APPROVED_WITH_RISKS
+- [ ] DRAFT
+- [ ] READY_FOR_HUMAN_REVIEW
 - [ ] REWORK_REQUIRED
 
-## Accepted Risks
+The agent must not select a human approval status. An accountable human records construction authorization in the project governance record after reviewing this package.
 
-| Risk | Owner | Trigger | Mitigation | Re-Review Point |
-|---|---|---|---|---|
+## Residual Risks Proposed for Human Acceptance
+
+| Risk | Evidence / Scenario | Impact | Mitigation / Trigger | Proposed Owner | Human Decision Record |
+|---|---|---|---|---|---|

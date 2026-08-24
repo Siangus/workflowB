@@ -17,11 +17,11 @@ Each state is a control-plane contract; handbook links hold execution detail.
 
 ## Discovery and Requirements
 - **state_id:** `discovery-and-requirements`
-- **goal:** Create testable, owned, prioritized near-term requirements with appropriate detail.
+- **goal:** Create evidence-backed, owned, prioritized near-term requirements and acceptance scenarios with appropriate detail.
 - **entry_criteria:** Problem frame and stakeholder plan exist.
-- **activities:** Elicit scenarios, rules, data, quality attributes, interfaces, exceptions, and acceptance criteria.; Use models or prototypes to reduce uncertainty.; Prioritize and validate the selected scope.
-- **outputs:** Requirements or stories; Acceptance criteria; Models/prototype findings; Open issue register
-- **exit_criteria:** Near-term requirements are testable.; Priority owner agrees on the work set.; Key users, engineers, and testers share understanding.
+- **activities:** Classify material claims by evidence status.; Elicit scenarios, rules, data, quality attributes, interfaces, and exceptions.; Create models and acceptance scenarios where prose is insufficient.; Use models or prototypes to reduce uncertainty.; Prioritize and validate the selected scope.
+- **outputs:** Evidence register; Requirements or stories; Acceptance scenarios; Models/prototype findings; Open issue register
+- **exit_criteria:** Baseline claims have evidence or an accountable decision.; Requirements and acceptance scenarios are testable.; Priority owner agrees on the work set.; Key users, engineers, and testers have walked through high-risk behavior.
 - **quality_gates:** Requirements completeness and testability review.; Quality-attribute scenario review.
 - **roles:** Business analyst; Product owner; Domain expert; Engineer; Tester
 - **fallback:** Return to problem framing when value or scope is unstable.
@@ -30,11 +30,11 @@ Each state is a control-plane contract; handbook links hold execution detail.
 
 ## Architecture and Domain Design
 - **state_id:** `architecture-and-domain-design`
-- **goal:** Select boundaries, quality tactics, integration contracts, and implementation patterns that support the next value slice.
+- **goal:** Select evidence-backed boundaries, quality responses, integration contracts, and implementation constraints that support the next value slice.
 - **entry_criteria:** Testable scope slice and architecturally significant requirements are known.
-- **activities:** Define quality attribute scenarios.; Choose module, component-and-connector, and allocation views.; Apply Attribute-Driven Design.; Select domain, data, concurrency, presentation, and distribution patterns only when justified.; Document interfaces, behavior, rationale, mappings, and debt.; Evaluate the architecture with a focused review or ATAM-style method.
-- **outputs:** Quality attribute scenarios; Architecture decision record; Selected views and mappings; Interface/behavior contracts; Pattern decision; Evaluation findings; Architecture debt items
-- **exit_criteria:** Architecture drivers have design responses.; Boundaries and ownership are reviewable.; Interfaces and behavior are testable.; Major trade-offs and risks are recorded.; Documentation is usable by intended stakeholders.
+- **activities:** Define evidence-backed quality scenarios.; Choose views by stakeholder use and document their catalogs/semantics.; Apply Attribute-Driven Design.; Define domain/data/consistency/integration boundaries where triggered.; Document interfaces, behavior, rationale, mappings, and debt.; Evaluate high-risk scenarios with stakeholders.
+- **outputs:** Quality attribute scenarios; Architecture decision records with alternatives and validation; Views/catalogs/mappings; Interface/behavior contracts; Data/consistency design when triggered; Evaluation findings; Architecture debt items
+- **exit_criteria:** Architecture drivers have validated responses.; Boundaries, ownership, and invariants are reviewable.; Interfaces and high-risk behavior are specified for independent use.; Major trade-offs, assumptions, and risks are recorded.; Documentation is usable by intended stakeholders.
 - **quality_gates:** Quality scenario review.; Architecture and contract review.; View/documentation completeness review.; Aggregate/concurrency review where applicable.; Architecture risk evaluation.
 - **roles:** Architect/lead engineer; Domain expert; Product owner; Reviewer; Tester
 - **fallback:** Return to discovery when requirements or quality scenarios conflict; create a spike when the architecture risk is not understood.
@@ -43,21 +43,21 @@ Each state is a control-plane contract; handbook links hold execution detail.
 
 ## Design Readiness
 - **state_id:** `design-readiness`
-- **goal:** Turn requirements and architecture into a reviewed, traceable project design package before construction.
+- **goal:** Turn requirements and architecture into an evidence-backed, actively reviewed package before construction.
 - **entry_criteria:** Requirements have acceptance evidence; architecture drivers, boundaries, and major trade-offs are known.
-- **activities:** Create the project design package.; Define domain/state/invariants, quality scenarios, architecture views, runtime and failure flows, data consistency/recovery, interface contracts, ADRs, risk/security review, test strategy, traceability, and V1 plan.; Hold a design-readiness review.
-- **outputs:** Project design package; Design-readiness review; Approved risks or rework findings.
-- **exit_criteria:** Required design package artifacts exist.; Critical requirements trace to design and tests.; Interfaces, transaction boundaries, idempotency, recovery, and error semantics are explicit.; Review records APPROVED or APPROVED_WITH_RISKS.
+- **activities:** Create the risk-appropriate project design package.; Define domain/state/invariants, quality scenarios, views/catalogs, runtime/failure flows, data consistency/recovery, interface contracts, decisions, acceptance scenarios, and traceability as triggered.; Hold an active design-readiness walkthrough.; Record a `READY_FOR_HUMAN_REVIEW` recommendation or rework findings.
+- **outputs:** Project design package; Active-review findings; Human decision record; Rework findings.
+- **exit_criteria:** Material claims are evidence-classified.; Critical requirements trace to detailed behavior/design and concrete acceptance scenarios.; Triggered interface, transaction, idempotency, recovery, and error semantics are explicit.; Active reviewers can answer their intended questions.; Package is READY_FOR_HUMAN_REVIEW.
 - **quality_gates:** Requirements-to-acceptance review.; Domain/state/invariant review.; Architecture/contract review.; Consistency/recovery review.; Test strategy review.; Security/privacy review when applicable.
 - **roles:** Product owner; Business analyst; Architect/lead engineer; Domain expert; Tester; Security/reliability reviewer when triggered.
-- **fallback:** REWORK_REQUIRED returns to requirements or architecture. Missing design evidence blocks construction.
+- **fallback:** REWORK_REQUIRED returns to requirements or architecture. Missing design evidence blocks construction. Human acceptance is outside agent authority.
 - **next_state:** `plan-and-commit`
 - **handbook:** `states/design-readiness/playbook.md`
 
 ## Plan and Commit
 - **state_id:** `plan-and-commit`
 - **goal:** Select a feasible, value-bearing work set and make scope trade-offs explicit.
-- **entry_criteria:** Prioritized backlog or approved baseline exists.; Design-readiness decision is APPROVED or APPROVED_WITH_RISKS.; Dependencies and material risks are visible.
+- **entry_criteria:** Prioritized backlog or approved baseline exists.; Package is READY_FOR_HUMAN_REVIEW and has accountable human acceptance or explicit residual-risk acceptance.; Dependencies and material risks are visible.
 - **activities:** Select value slices.; Assess capacity, risks, dependencies, and changes.; Record commitments and deferred scope.; Use rolling planning or formal estimation according to profile.
 - **outputs:** Iteration/release plan; Risk updates; Commitment decision; Deferred-scope list
 - **exit_criteria:** Work set fits capacity and constraints.; High risks have responses and triggers.; Deferred work has an explicit rationale.
@@ -70,7 +70,7 @@ Each state is a control-plane contract; handbook links hold execution detail.
 ## Construct and Integrate
 - **state_id:** `construct-and-integrate`
 - **goal:** Implement a maintainable, integrated vertical increment under configuration control.
-- **entry_criteria:** The next slice has acceptance evidence, needed design decisions, and an approved design-readiness package.
+- **entry_criteria:** The next slice has acceptance evidence, needed design decisions, and a design-readiness package accepted by an accountable human.
 - **activities:** Implement the vertical slice.; Run developer checks.; Review and integrate frequently.; Publish events safely when required.; Maintain configuration identity.
 - **outputs:** Integrated build; Code/review evidence; Automated developer checks; Updated configuration record
 - **exit_criteria:** Integrated build is green.; Changes have review and test evidence.; No unexplained contract break exists.

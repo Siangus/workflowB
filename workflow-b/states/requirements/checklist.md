@@ -2,12 +2,16 @@
 
 Check each item with evidence; do not use percentage-complete as a substitute.
 
-- [ ] Near-term requirements are testable.
+- [ ] An evidence register classifies every material claim and names its source or decision owner.
+- [ ] Near-term requirements are atomic, testable, prioritized, and linked to objective/rationale, rules, and acceptance scenarios.
+- [ ] High-risk workflows have an appropriate model for states, decisions, data, events, or handoffs.
 - [ ] Priority owner agrees on the work set.
-- [ ] Key users, engineers, and testers share understanding.
+- [ ] Relevant users, engineers, and testers have walked through the high-risk scenarios.
 - [ ] Quality attributes have measurable scenarios.
+- [ ] Blocking assumptions and open questions have owners, deadlines, and a return path.
 
 ## Gates
 - [ ] Completeness and testability review
 - [ ] Quality-attribute scenario review
 - [ ] Stakeholder confirmation
+- [ ] Evidence and assumption review

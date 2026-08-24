@@ -20,8 +20,9 @@ Use this skill as the engineering control plane for a project. It provides route
 3. Identify the project profile and current SOP state.
 4. Read only the matching L1 state files listed in the manifest.
 5. Enable cross-cutting modules only when the profile or risk triggers them.
-6. Read one L2 method or template only when its concrete activity is selected.
-7. Read L3 provenance only for traceability, conflict resolution, audit, or deep study.
+6. Before baselining requirements or declaring a design package ready, read `L2/quality-contracts/evidence-and-implementation-detail.md`.
+7. Read one L2 method or template only when its concrete activity is selected.
+8. Read L3 provenance only for traceability, conflict resolution, audit, or deep study.
 
 ## Loading Contract
 
@@ -34,7 +35,7 @@ L3: inspect source-backed evidence
 
 Do not load the entire handbook by default. Do not substitute a technical mechanism for a business requirement. Do not call an increment complete until the active state's exit evidence and quality gates are met.
 
-Before entering `construction`, the project must pass the `design-readiness` state and produce the project design package in `templates/project-design-package/`, including the required `arc42.md`. Run `scripts/validate_project_design_package.py <design-package-path>` before recording approval. Architecture discussion alone is not sufficient evidence.
+Before entering `construction`, the project must pass the `design-readiness` state and produce the risk-appropriate project design package in `templates/project-design-package/`, including the required `arc42.md`. Run `scripts/validate_project_design_package.py <design-package-path>` as a structural check; it cannot approve content. An agent may only recommend `READY_FOR_HUMAN_REVIEW`. Architecture discussion alone is not sufficient evidence.
 
 ## Project Profiles
 
@@ -60,4 +61,5 @@ Profiles may combine. A high-concurrency coupon system normally enables performa
 - Cross-cutting modules: `cross-cutting/`
 - Detailed source-backed methods: `L2/methods/`
 - Reusable templates: `templates/`
+- Evidence and implementation-detail contract: `L2/quality-contracts/`
 - Provenance, conflicts, and knowledge registry: `L3/` and `references/provenance/`
