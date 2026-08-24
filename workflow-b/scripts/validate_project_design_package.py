@@ -38,6 +38,7 @@ ARC42_SECTIONS = (
     "## 12. Glossary",
 )
 REQUIREMENT_PATTERN = re.compile(r"^\|\s*(FR-[A-Z]+-\d+)\s*\|")
+TEST_ID_PATTERN = re.compile(r"^\|\s*([A-Z][A-Z0-9-]*-\d+)\s*\|")
 
 
 def read_text(path: Path) -> str:
@@ -49,6 +50,14 @@ def markdown_ids(path: Path) -> dict[str, str]:
         match.group(1): line
         for line in read_text(path).splitlines()
         if (match := REQUIREMENT_PATTERN.match(line))
+    }
+
+
+def test_ids(path: Path) -> set[str]:
+    return {
+        match.group(1)
+        for line in read_text(path).splitlines()
+        if (match := TEST_ID_PATTERN.match(line))
     }
 
 
@@ -74,8 +83,10 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
 
     requirements_path = design_path / "01-requirements-baseline.md"
     traceability_path = design_path / "11-traceability-matrix.md"
+    test_strategy_path = design_path / "10-test-and-acceptance-strategy.md"
     requirement_ids: dict[str, str] = {}
     trace_rows: dict[str, str] = {}
+    strategy_test_ids: set[str] = set()
     if requirements_path.is_file():
         requirement_ids = markdown_ids(requirements_path)
         if not requirement_ids:
@@ -84,6 +95,13 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
         trace_rows = markdown_ids(traceability_path)
         if not trace_rows:
             errors.append("traceability matrix contains no FR-* rows")
+    if test_strategy_path.is_file():
+        strategy_text = read_text(test_strategy_path)
+        if not re.search(r"^\|\s*Test ID\s*\|", strategy_text, re.MULTILINE):
+            errors.append("test strategy lacks a Test ID catalog")
+        strategy_test_ids = test_ids(test_strategy_path)
+        if not strategy_test_ids:
+            errors.append("test strategy contains no named test IDs")
 
     for requirement_id in requirement_ids:
         trace_row = trace_rows.get(requirement_id)
@@ -93,6 +111,8 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
         columns = [column.strip() for column in trace_row.strip("|").split("|")]
         if len(columns) < 6 or not columns[4] or columns[4] in {"N/A", "TBD"}:
             errors.append(f"requirement lacks a test identifier: {requirement_id}")
+        elif columns[4] not in strategy_test_ids:
+            errors.append(f"traceability test ID is absent from the test strategy: {requirement_id} -> {columns[4]}")
 
     review_path = design_path / "13-design-readiness-review.md"
     if review_path.is_file():
@@ -107,6 +127,7 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
         "required_documents": len(REQUIRED_DOCUMENTS),
         "requirements": len(requirement_ids),
         "trace_rows": len(trace_rows),
+        "named_tests": len(strategy_test_ids),
         "adr_files": len(adr_files),
     }
     return errors, warnings, stats
