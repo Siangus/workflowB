@@ -8,17 +8,17 @@ Enter with an opportunity or problem and an accountable sponsor. Exit when probl
 ## Requirements Discovery
 `requirements` -> `architecture`
 
-Enter with a problem frame. Exit when material claims have evidence or accountable decisions; near-term requirements and acceptance scenarios are owned, prioritized, testable, and walked through by relevant users, engineers, and testers. Return to problem framing when value or scope is unstable.
+Enter with a problem frame. Exit when material claims have evidence or accountable decisions; one canonical Product/Requirements Specification and its acceptance scenarios are owned, prioritized, testable, and walked through by relevant users, engineers, and testers. Return to problem framing when value or scope is unstable.
 
 ## Architecture and Domain Design
 `architecture` -> `design-readiness`
 
-Enter with testable scope and architecture drivers. Exit when boundaries, quality tactics, interfaces, behavior, data/consistency constraints, rationale, validation, and major risks are reviewable by intended readers. Create a spike or return to requirements when architecture risk is unresolved.
+Enter with testable scope and architecture drivers. Exit when one canonical Technical Design Document explains the chosen boundaries, quality tactics, interfaces, behavior, data/consistency constraints, rationale, validation, and major risks for intended readers. Create a spike or return to requirements when architecture risk is unresolved.
 
 ## Design Readiness
 `design-readiness` -> `plan-and-commit` -> `construction`
 
-Enter with requirements and architecture outputs. Assemble and actively review the risk-appropriate design package: evidence register, requirement/acceptance scenarios, domain/state model, quality scenarios, views and catalogs, runtime/failure flows, data consistency/recovery, interfaces, decisions, security/risk review, and traceability. The agent can only record `READY_FOR_HUMAN_REVIEW`; construction is blocked until an accountable human accepts the package or explicitly accepts residual risk.
+Enter with requirements and architecture outputs. Assemble and actively review the canonical Product/Requirements Specification, Technical Design Document, Verification/Acceptance Plan, and risk-triggered Operations/SLO Specification, with evidence, views, decisions, and traceability behind them. The agent can only record `READY_FOR_HUMAN_REVIEW`; construction is blocked until an accountable human accepts the package or explicitly accepts residual risk.
 
 ## Plan and Commit
 `plan-and-commit` -> `construction`

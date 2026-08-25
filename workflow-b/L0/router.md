@@ -10,7 +10,8 @@ Load this file first. It routes the agent without loading source cards or detail
 4. Enable only the cross-cutting modules triggered by the profile or current risk.
 5. Load L2 methods or templates for the concrete activity.
 6. Load the L2 evidence-and-implementation-detail contract before baselining requirements or declaring a design package ready.
-7. Load L3 provenance only for traceability, disagreement, audit, or deep study.
+7. Load the L2 document-product-architecture contract before creating or reviewing canonical project documents.
+8. Load L3 provenance only for traceability, disagreement, audit, or deep study.
 
 ## Loading Levels
 

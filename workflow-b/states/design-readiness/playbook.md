@@ -6,13 +6,15 @@
 
 ## Activities
 1. Create the project design package and use `arc42.md` as its architecture navigation narrative.
-2. Apply `L2/quality-contracts/evidence-and-implementation-detail.md` to select and elaborate only the artifacts triggered by the slice's risks.
+2. Apply the document-product-architecture and evidence-detail contracts to establish one primary document per class.
 3. Define state, rules, quality scenarios, views, data/recovery, interfaces, decisions, acceptance scenarios, and traceability at the required depth.
-4. Conduct an active walkthrough with product, implementation, test, and interface/operations reviewers as relevant.
-5. Record findings, blockers, accepted risks, and a `READY_FOR_HUMAN_REVIEW` recommendation. Do not self-approve.
+4. Produce the Verification and Acceptance Plan and Operations/SLO Specification when the profile or risk triggers them.
+5. Conduct an active walkthrough with product, implementation, test, and interface/operations reviewers as relevant.
+6. Record findings, blockers, accepted risks, and a `READY_FOR_HUMAN_REVIEW` recommendation. Do not self-approve.
 
 ## Outputs
 - Project design package
+- Document-set index and primary document set
 - arc42 architecture navigation document
 - Active-review record, findings, and human decision record
 - Accepted risks or rework findings

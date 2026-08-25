@@ -9,8 +9,13 @@ from pathlib import Path
 
 REQUIRED_DOCUMENTS = (
     "00-charter.md",
+    "00-document-set-index.md",
     "01-requirements-baseline.md",
     "software-requirements-specification.md",
+    "product-requirements-specification.md",
+    "technical-design.md",
+    "verification-and-acceptance-plan.md",
+    "operations-and-slo.md",
     "evidence-register.md",
     "02-domain-and-state-model.md",
     "03-quality-attribute-scenarios.md",
@@ -71,6 +76,24 @@ def validate(design_path: Path) -> tuple[list[str], list[str], dict[str, int]]:
     for filename in REQUIRED_DOCUMENTS:
         if not (design_path / filename).is_file():
             errors.append(f"missing required design artifact: {filename}")
+
+    primary_documents = {
+        "product-requirements-specification.md": "Product and Requirements Specification",
+        "technical-design.md": "Technical Design Document",
+        "verification-and-acceptance-plan.md": "Verification and Acceptance Plan",
+        "operations-and-slo.md": "Operations and Reliability Specification",
+    }
+    for filename, document_name in primary_documents.items():
+        path = design_path / filename
+        if not path.is_file():
+            continue
+        text = read_text(path)
+        if not re.search(r"^\*\*Status:\*\*", text, re.MULTILINE):
+            errors.append(f"{document_name} lacks Status header")
+        if not re.search(r"^\*\*Owner:\*\*", text, re.MULTILINE):
+            errors.append(f"{document_name} lacks Owner header")
+        if "## Change Summary" not in text:
+            errors.append(f"{document_name} lacks Change Summary")
 
     adr_dir = design_path / "08-adr"
     adr_files = sorted(adr_dir.glob("ADR-*.md")) if adr_dir.is_dir() else []

@@ -2,13 +2,18 @@
 
 Copy this directory into the project repository before construction. This package is a set of evidence and decision containers, not a fixed report. Keep each artifact only when it answers an actual stakeholder question, but do not omit a risk-triggered artifact. Mark genuinely irrelevant sections as `Not applicable: <reason>`.
 
-`arc42.md` is required as the coherent architecture navigation narrative. It links the detailed evidence; it does not replace it.
+`arc42.md` is required as the coherent architecture navigation narrative. It links the Technical Design Document and detailed evidence; it does not replace the Product/Requirements Specification or the Technical Design Document.
 
 ## Required Foundation
 
+- `00-document-set-index.md`: reader map, canonical documents, versions, owners, and change set.
 - `00-charter.md`: problem, scope, decision owner, and success measures.
 - `01-requirements-baseline.md`: the selected requirement set, with links to detailed cards/scenarios.
 - `software-requirements-specification.md`: the versioned, implementation-independent technical requirement baseline.
+- `product-requirements-specification.md`: canonical product/requirements narrative for the selected increment.
+- `technical-design.md`: canonical architecture/design narrative for the selected increment.
+- `verification-and-acceptance-plan.md`: canonical verification and release-evidence narrative.
+- `operations-and-slo.md`: canonical operations/reliability narrative when profile or risk triggers it.
 - `evidence-register.md`: claim classification, source/owner, assumptions, and open decisions.
 - `02-domain-and-state-model.md`: language, rules, and stateful behavior when the domain is not trivial.
 - `03-quality-attribute-scenarios.md`: measurable quality drivers or explicitly unresolved targets.
@@ -33,3 +38,7 @@ Copy and instantiate the matching top-level templates when the selected slice tr
 ## Gate Semantics
 
 Run `scripts/validate_project_design_package.py <design-package-path>` from the Workflow B Skill directory. It checks navigability and minimum structural relations only; it cannot judge evidence credibility or approve a design. The agent may record `READY_FOR_HUMAN_REVIEW` after an active walkthrough. Construction requires an accountable human acceptance or explicit residual-risk acceptance outside the agent's authority.
+
+## Derived Distribution
+
+When the audience needs one continuous file, generate a PDF compendium from the four canonical primary documents. Treat the PDF as a derived reader artifact: record its source versions and do not edit it independently.

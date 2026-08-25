@@ -61,6 +61,7 @@ cross_cutting:
 on_demand:
   methods: L2/methods/
   quality_contracts: L2/quality-contracts/
+  document_architecture: L2/quality-contracts/document-product-architecture.md
   patterns: L2/patterns/
   test_strategies: L2/test-strategies/
   templates: templates/

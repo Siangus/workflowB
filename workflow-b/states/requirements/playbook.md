@@ -14,15 +14,15 @@
 
 ## Outputs
 - Evidence register and unresolved-decision register
-- Requirement cards or stories with source, rationale, and verification information
-- Versioned software requirements specification (SRS) for the selected increment
+- Product and Requirements Specification as the canonical primary document
+- Supporting requirement cards or stories with source, rationale, and verification information
 - Concrete acceptance scenarios
 - Business-rule catalog
 - Models, prototype findings, and decision records
 
 ## Exit Evidence
 - Each baseline claim has evidence or an accountable human decision.
-- The SRS expresses the selected requirement baseline without mixing architecture, implementation, test-plan, or project-plan detail.
+- The Product and Requirements Specification is coherent in one read and does not mix architecture, implementation, test-plan, or project-plan detail.
 - Near-term requirements and acceptance scenarios are specific enough that a tester can derive an oracle without guessing.
 - Priority owner agrees on the work set.
 - Relevant users, engineers, and testers have walked through high-risk behavior.

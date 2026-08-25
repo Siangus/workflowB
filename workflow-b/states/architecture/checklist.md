@@ -3,6 +3,7 @@
 Check each item with evidence; do not use percentage-complete as a substitute.
 
 - [ ] Each architecture driver links to evidence, a design response, an owner, and a validation approach.
+- [ ] The canonical Technical Design Document has status, owner, readers, scope, change summary, chosen design, alternatives, consequences, risks, validation, and next action.
 - [ ] Each selected view has a stakeholder question, primary representation, catalog, relation semantics, rationale, and necessary mapping.
 - [ ] Boundaries, ownership, invariants, and integration/change policies are reviewable.
 - [ ] Interfaces and high-risk behavior define normal, error, timeout, ordering, and compatibility semantics.

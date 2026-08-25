@@ -21,8 +21,9 @@ Use this skill as the engineering control plane for a project. It provides route
 4. Read only the matching L1 state files listed in the manifest.
 5. Enable cross-cutting modules only when the profile or risk triggers them.
 6. Before baselining requirements or declaring a design package ready, read `L2/quality-contracts/evidence-and-implementation-detail.md`.
-7. Read one L2 method or template only when its concrete activity is selected.
-8. Read L3 provenance only for traceability, conflict resolution, audit, or deep study.
+7. Before creating or reviewing project documents, read `L2/quality-contracts/document-product-architecture.md`.
+8. Read one L2 method or template only when its concrete activity is selected.
+9. Read L3 provenance only for traceability, conflict resolution, audit, or deep study.
 
 ## Loading Contract
 
@@ -53,6 +54,8 @@ Profiles may combine. A high-concurrency coupon system normally enables performa
 - Return success only when the business fact claimed by the response is durable and queryable.
 - Preserve decision ownership, configuration identity, change communication, and acceptance evidence.
 - Use the smallest artifact and process weight that meets the project risk.
+- Produce one canonical primary document per document class; use supporting artifacts to provide evidence, not competing narratives.
+- Make every primary document useful to a named reader in one continuous read, with status, owner, change summary, decisions, evidence, and next action.
 - When requirements, architecture, implementation, or verification invalidate an assumption, follow the active state's fallback rather than hiding the failure.
 
 ## References
@@ -62,4 +65,5 @@ Profiles may combine. A high-concurrency coupon system normally enables performa
 - Detailed source-backed methods: `L2/methods/`
 - Reusable templates: `templates/`
 - Evidence and implementation-detail contract: `L2/quality-contracts/`
+- Document product architecture contract: `L2/quality-contracts/document-product-architecture.md`
 - Provenance, conflicts, and knowledge registry: `L3/` and `references/provenance/`

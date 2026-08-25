@@ -15,6 +15,7 @@
 
 ## Outputs
 - Quality attribute scenarios
+- Technical Design Document as the canonical primary document
 - Architecture decision records with alternatives and validation
 - View catalog, views, element/relation catalogs, and mappings
 - Interface and behavior contracts
@@ -27,6 +28,7 @@
 - Interfaces and high-risk behaviors specify normal, error, timeout, and ordering semantics.
 - Major trade-offs, sensitivity points, assumptions, and risks are recorded with owners.
 - Intended stakeholders can use the documentation to answer their implementation or review questions.
+- The Technical Design Document presents one coherent end-to-end design before linking to focused views, ADRs, contracts, and data details.
 
 ## Quality Gates
 - Quality scenario review
